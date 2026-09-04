@@ -211,11 +211,16 @@ settings?.navbarColor || "#004d40",
       className="navbar-logo"  
       onClick={() => navigate("/")}  
     >  
-      <img  
-        src={getImageUrl(settings?.logo)}  
-        className="logo-img"  
-        alt="logo"  
-      />  
+     
+      <img
+  src={
+    settings?.logo
+      ? getImageUrl(settings.logo)
+      : "images/logo.jpg"
+  }
+  className="logo-img"
+  alt="logo"
+/>
 
       <div className="logo-text">  
         <h3>  
