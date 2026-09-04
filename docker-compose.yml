@@ -6,7 +6,7 @@ services:
     container_name: jabata_db
     restart: unless-stopped
     environment:
-      POSTGRES_DB: jabata_municipality
+      POSTGRES_DB: jabata-municipality
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 12345
     ports:
