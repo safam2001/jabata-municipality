@@ -8,7 +8,7 @@ const {
   createAbout,
   updateAboutStatus,
   deleteAbout,
-} = require("../controllerS/aboutController");
+} = require("../controllers/aboutController");
 
 const authMiddleware = require("../middlewares/authMiddleware");
 const { adminOnly } = require("../middlewares/roleMiddleware");
