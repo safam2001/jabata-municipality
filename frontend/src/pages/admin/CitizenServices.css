@@ -1,0 +1,154 @@
+/* ==========================
+   CitizenServices.css
+========================== */
+
+.citizen-page {
+  padding: 25px;
+  background: #f4f7f8;
+  min-height: 100vh;
+}
+
+.citizen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.citizen-header h2 {
+  color: #004d40;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.citizen-table-wrapper {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .08);
+}
+
+.citizen-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.citizen-table thead {
+  background: #004d40;
+}
+
+.citizen-table th {
+  color: #fff;
+  padding: 14px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.citizen-table td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #e9ecef;
+  color: #444;
+}
+
+.citizen-table tbody tr:hover {
+  background: #f8fbfb;
+}
+
+.citizen-status {
+  display: inline-block;
+  background: #d4edda;
+  color: #155724;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Buttons */
+
+.citizen-details-btn,
+.citizen-delete-btn {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 3px;
+  transition: .3s;
+}
+
+.citizen-details-btn {
+  background: #1976d2;
+}
+
+.citizen-details-btn:hover {
+  background: #0d47a1;
+}
+
+.citizen-delete-btn {
+  background: #d32f2f;
+}
+
+.citizen-delete-btn:hover {
+  background: #b71c1c;
+}
+
+/* Empty Table */
+
+.citizen-table td[colspan] {
+  padding: 30px;
+  color: #777;
+  font-size: 16px;
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media (max-width: 992px) {
+
+  .citizen-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .citizen-table {
+    min-width: 850px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .citizen-page {
+    padding: 15px;
+  }
+
+  .citizen-header h2 {
+    font-size: 22px;
+  }
+
+  .citizen-table th,
+  .citizen-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .citizen-header h2 {
+    font-size: 20px;
+  }
+
+  .citizen-details-btn,
+  .citizen-delete-btn {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+  }
+
+}

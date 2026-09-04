@@ -1,0 +1,313 @@
+.my-requests-page {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+/* العنوان */
+
+.my-requests-page h1 {
+  text-align: center;
+  margin-bottom: 35px;
+  color: #004d40;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+
+/* حالة عدم وجود طلبات */
+
+.no-requests {
+  text-align: center;
+  padding: 40px;
+  background: #f7f7f7;
+  border-radius: 15px;
+  color: #777;
+}
+
+
+
+/* الكروت */
+
+.request-card {
+
+  background: white;
+
+  border-radius: 18px;
+
+  padding: 25px;
+
+  margin-bottom: 25px;
+
+  box-shadow: 
+  0 5px 20px rgba(0,0,0,0.08);
+
+  border-right: 5px solid #004d40;
+
+  transition: 0.3s ease;
+
+}
+
+
+.request-card:hover {
+
+  transform: translateY(-4px);
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,0.12);
+
+}
+
+
+
+/* رأس الكرت */
+
+.request-header {
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:space-between;
+
+  gap:15px;
+
+  flex-wrap:wrap;
+
+  margin-bottom:20px;
+
+}
+
+
+.request-header h3 {
+
+  margin:0;
+
+  color:#333;
+
+  font-size:22px;
+
+}
+
+
+.request-header small {
+
+  color:#888;
+
+  font-size:14px;
+
+}
+
+
+
+/* الحالة */
+
+.status-badge {
+
+  padding:7px 18px;
+
+  border-radius:30px;
+
+  font-size:14px;
+
+  font-weight:bold;
+
+}
+
+
+/* pending */
+
+.status-badge.pending {
+
+  background:#fff3cd;
+
+  color:#856404;
+
+}
+
+
+/* approved */
+
+.status-badge.approved {
+
+  background:#d4edda;
+
+  color:#155724;
+
+}
+
+
+/* rejected */
+
+.status-badge.rejected {
+
+  background:#f8d7da;
+
+  color:#721c24;
+
+}
+
+
+
+/* محتوى الطلب */
+
+.request-body {
+
+  background:#f8faf9;
+
+  border-radius:12px;
+
+  padding:18px;
+
+}
+
+
+.request-body p {
+
+  margin:12px 0;
+
+  color:#555;
+
+  display:flex;
+
+  gap:8px;
+
+  align-items:center;
+
+}
+
+
+.request-body strong {
+
+  color:#004d40;
+
+}
+
+
+
+/* أسفل الكرت */
+
+.request-footer {
+
+  margin-top:20px;
+
+  display:flex;
+
+  justify-content:flex-end;
+
+}
+
+
+
+/* زر التفاصيل */
+
+.details-btn {
+
+
+  background:#004d40;
+
+  color:white;
+
+  border:none;
+
+  padding:12px 25px;
+
+  border-radius:30px;
+
+  cursor:pointer;
+
+  font-size:15px;
+
+  transition:0.3s;
+
+
+}
+
+
+.details-btn:hover {
+
+  background:#00695c;
+
+}
+
+
+
+/* Loading */
+
+.loading {
+
+ text-align:center;
+
+ font-size:20px;
+
+ color:#004d40;
+
+}
+
+
+
+/* موبايل */
+
+@media(max-width:768px){
+
+
+.my-requests-page{
+
+ margin:20px auto;
+
+ padding:15px;
+
+}
+
+
+.my-requests-page h1{
+
+ font-size:25px;
+
+}
+
+
+.request-card{
+
+ padding:18px;
+
+}
+
+
+.request-header{
+
+ flex-direction:column;
+
+ align-items:flex-start;
+
+}
+
+
+.request-body p{
+
+ flex-direction:column;
+
+ gap:3px;
+
+}
+
+
+.request-footer{
+
+ justify-content:center;
+
+}
+
+
+.details-btn{
+
+ width:100%;
+
+}
+
+
+
+}

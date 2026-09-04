@@ -1,0 +1,383 @@
+.admin-services-page {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.header h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+}
+
+.add-btn {
+  background: #f39c12;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+  background: #d68910;
+}
+
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.services-table th,
+.services-table td {
+  padding: 0.8rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.services-table th {
+  background:  #026857;
+  font-weight: 600;
+  color: white;
+}
+
+.services-table tr:hover {
+  background: #f9f9f9;
+}
+
+.edit-se-btn,
+.delete-se-btn {
+  padding: 0.1rem 0.1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+  transition: background 0.3s ease;
+width: 100px;
+height: 30px;
+}
+
+.edit-se-btn {
+  background: #3498db;
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background: #2980b9;
+}
+
+.delete-se-btn {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.delete-se-btn:hover {
+  background: #c0392b;
+}
+
+/* 🟢 المودال */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 700px; /* تصغير العرض */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.modal-content h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+/* 🟢 تنظيم الحقول في صفوف */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* عمودين */
+  gap: 1rem;
+}
+
+.form-grid input,
+.form-grid textarea,
+.form-grid select {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.save-btn,
+.close-btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+.save-btn {
+  background: #27ae60;
+  color: #fff;
+}
+
+.save-btn:hover {
+  background: #1e8449;
+}
+
+.close-btn {
+  background: #7f8c8d;
+  color: #fff;
+}
+
+.close-btn:hover {
+  background: #626567;
+}
+
+/* 🟢 Responsive Design */
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr; /* عمود واحد للموبايل */
+  }
+
+  .modal-content {
+    max-width: 95%;
+    padding: 1rem;
+  }
+}
+/* =================================
+   Services Search & Filter Toolbar
+================================= */
+
+.services-toolbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 22px 0 18px;
+  padding: 16px 18px;
+  background: #ffffff;
+  border: 1px solid #e5e9e7;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+/* ================================
+   Search
+================================ */
+
+.services-search {
+  position: relative;
+  flex: 1;
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+}
+
+.services-search > span {
+  position: absolute;
+  right: 14px;
+  font-size: 17px;
+  color: #6b7773;
+  pointer-events: none;
+}
+
+.services-search input {
+  width: 100%;
+  height: 44px;
+  padding: 0 42px 0 42px;
+
+  border: 1px solid #d5ddda;
+  border-radius: 9px;
+
+  background: #fafcfb;
+  color: #263330;
+
+  font-family: inherit;
+  font-size: 14px;
+
+  outline: none;
+  box-sizing: border-box;
+
+  transition: all 0.2s ease;
+}
+
+.services-search input::placeholder {
+  color: #9aa5a1;
+}
+
+.services-search input:focus {
+  background: #ffffff;
+  border-color: #004d40;
+  box-shadow: 0 0 0 3px rgba(0, 77, 64, 0.08);
+}
+
+/* ================================
+   Clear Search Button
+================================ */
+
+.clear-services-search {
+  position: absolute;
+  left: 10px;
+
+  width: 27px;
+  height: 27px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #e8eeec;
+  color: #52615c;
+
+  font-size: 19px;
+  line-height: 1;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.clear-services-search:hover {
+  background: #d7e1de;
+  color: #004d40;
+}
+
+/* ================================
+   Status Filter
+================================ */
+
+.services-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 220px;
+}
+
+.services-filter label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3e4b47;
+  white-space: nowrap;
+}
+
+.services-filter select {
+  height: 44px;
+  min-width: 145px;
+
+  padding: 0 35px 0 12px;
+
+  border: 1px solid #d5ddda;
+  border-radius: 9px;
+
+  background-color: #fafcfb;
+  color: #263330;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+
+  outline: none;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.services-filter select:hover {
+  border-color: #aebbb6;
+}
+
+.services-filter select:focus {
+  border-color: #004d40;
+  box-shadow: 0 0 0 3px rgba(0, 77, 64, 0.08);
+}
+
+/* =================================
+   Responsive - Tablet
+================================= */
+
+@media (max-width: 768px) {
+
+  .services-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 14px;
+  }
+
+  .services-search {
+    max-width: none;
+    width: 100%;
+  }
+
+  .services-filter {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .services-filter select {
+    flex: 1;
+  }
+}
+
+/* =================================
+   Responsive - Mobile
+================================= */
+
+@media (max-width: 480px) {
+
+  .services-toolbar {
+    margin: 16px 0;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .services-search input {
+    height: 42px;
+    font-size: 13px;
+  }
+
+  .services-filter {
+    gap: 8px;
+  }
+
+  .services-filter label {
+    font-size: 13px;
+  }
+
+  .services-filter select {
+    height: 42px;
+    min-width: 0;
+    font-size: 13px;
+  }
+
+}

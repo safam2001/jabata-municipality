@@ -1,0 +1,670 @@
+/* =========================================
+   ADMIN ABOUT
+========================================= */
+
+.admin-about-page {
+  width: 100%;
+  padding: 30px;
+  background: #f5f7f7;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.admin-about-header {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 25px 28px;
+  margin-bottom: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+}
+
+.admin-about-header-info {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.admin-about-header-icon {
+  width: 58px;
+  height: 58px;
+
+  border-radius: 15px;
+
+  background: #e0f2f1;
+  color: #00796b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+}
+
+.admin-about-header h1 {
+  margin: 0 0 6px;
+  color: #004d40;
+  font-size: 27px;
+}
+
+.admin-about-header p {
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+}
+
+
+/* =========================================
+   STATUS
+========================================= */
+
+.admin-about-status {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  padding: 9px 15px;
+  border-radius: 30px;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.admin-about-status.active {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.admin-about-status.inactive {
+  background: #ffebee;
+  color: #c62828;
+}
+
+
+/* =========================================
+   ALERTS
+========================================= */
+
+.admin-about-alert {
+  padding: 14px 18px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.admin-about-alert.success {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.admin-about-alert.error {
+  background: #ffebee;
+  color: #c62828;
+}
+
+
+/* =========================================
+   FORM SECTION
+========================================= */
+
+.admin-about-section {
+  background: #ffffff;
+
+  border-radius: 18px;
+
+  padding: 28px;
+
+  margin-bottom: 22px;
+
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+}
+
+
+/* =========================================
+   SECTION TITLE
+========================================= */
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+
+  border-bottom: 1px solid #eeeeee;
+}
+
+.section-icon {
+  width: 46px;
+  height: 46px;
+
+  border-radius: 12px;
+
+  background: #e0f2f1;
+  color: #00796b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  font-size: 19px;
+}
+
+.section-title h2 {
+  margin: 0 0 5px;
+
+  color: #004d40;
+
+  font-size: 19px;
+}
+
+.section-title p {
+  margin: 0;
+
+  color: #888;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.form-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group.full {
+  grid-column: 1 / -1;
+}
+
+
+/* =========================================
+   LABEL
+========================================= */
+
+.form-group label {
+  color: #444;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+}
+
+.form-group label svg {
+  color: #00796b;
+}
+
+
+/* =========================================
+   INPUTS
+========================================= */
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  border: 1px solid #dddddd;
+
+  background: #fafafa;
+
+  border-radius: 11px;
+
+  padding: 12px 14px;
+
+  font-family: inherit;
+
+  font-size: 14px;
+
+  color: #333;
+
+  outline: none;
+
+  transition: 0.25s;
+}
+
+.form-group input {
+  height: 46px;
+}
+
+.form-group textarea {
+  min-height: 120px;
+
+  resize: vertical;
+
+  line-height: 1.7;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #00796b;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 0 0 3px rgba(0, 121, 107, 0.08);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #aaa;
+}
+
+
+/* =========================================
+   SWITCH ROW
+========================================= */
+
+.switch-row {
+  margin-top: 22px;
+
+  padding: 17px;
+
+  border-radius: 12px;
+
+  background: #f7fafa;
+
+  border: 1px solid #e5eeee;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  cursor: pointer;
+}
+
+.switch-row div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.switch-row strong {
+  color: #333;
+  font-size: 14px;
+}
+
+.switch-row span {
+  color: #888;
+  font-size: 12px;
+}
+
+.switch-row input {
+  width: 20px;
+  height: 20px;
+
+  accent-color: #00796b;
+
+  cursor: pointer;
+}
+
+
+/* =========================================
+   DISPLAY SETTINGS
+========================================= */
+
+.display-settings-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 15px;
+}
+
+.setting-card {
+  background: #fafcfc;
+
+  border: 1px solid #e6eeee;
+
+  border-radius: 13px;
+
+  padding: 17px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  cursor: pointer;
+
+  transition: 0.25s;
+}
+
+.setting-card:hover {
+  border-color: #80cbc4;
+
+  background: #f4fbfa;
+}
+
+.setting-card div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.setting-card strong {
+  color: #333;
+  font-size: 14px;
+}
+
+.setting-card span {
+  color: #888;
+  font-size: 12px;
+}
+
+.setting-card input {
+  width: 19px;
+  height: 19px;
+
+  accent-color: #00796b;
+
+  cursor: pointer;
+}
+
+
+/* =========================================
+   IMAGE PREVIEW
+========================================= */
+
+.admin-about-image-preview {
+  width: 100%;
+
+  max-width: 420px;
+
+  max-height: 220px;
+
+  object-fit: cover;
+
+  border-radius: 12px;
+
+  border: 1px solid #ddd;
+
+  margin-top: 8px;
+
+  background: #f5f5f5;
+}
+
+.logo-preview {
+  width: 130px;
+  height: 130px;
+
+  object-fit: contain;
+
+  padding: 10px;
+
+  background: #fafafa;
+}
+
+
+/* =========================================
+   SAVE BUTTON
+========================================= */
+
+.admin-about-actions {
+  display: flex;
+
+  justify-content: flex-end;
+
+  padding: 5px 0 30px;
+}
+
+.admin-about-save {
+  border: none;
+
+  background: #00796b;
+
+  color: #ffffff;
+
+  padding: 13px 25px;
+
+  min-width: 180px;
+
+  border-radius: 11px;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 9px;
+
+  transition: 0.25s;
+}
+
+.admin-about-save:hover {
+  background: #004d40;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 6px 15px rgba(0, 77, 64, 0.18);
+}
+
+.admin-about-save:disabled {
+  opacity: 0.65;
+
+  cursor: not-allowed;
+
+  transform: none;
+
+  box-shadow: none;
+}
+
+
+/* =========================================
+   LOADING
+========================================= */
+
+.admin-about-loading {
+  min-height: 60vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 15px;
+
+  color: #00796b;
+}
+
+.admin-about-spinner,
+.button-spinner {
+  width: 22px;
+  height: 22px;
+
+  border: 3px solid #b2dfdb;
+
+  border-top-color: #00796b;
+
+  border-radius: 50%;
+
+  animation: adminAboutSpin 0.8s linear infinite;
+}
+
+.admin-about-loading .admin-about-spinner {
+  width: 38px;
+  height: 38px;
+  border-width: 4px;
+}
+
+.admin-about-loading p {
+  margin: 0;
+  color: #777;
+}
+
+@keyframes adminAboutSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 900px) {
+
+  .admin-about-page {
+    padding: 22px;
+  }
+
+  .admin-about-header {
+    padding: 22px;
+  }
+
+  .admin-about-section {
+    padding: 22px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-group.full {
+    grid-column: auto;
+  }
+
+  .display-settings-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .admin-about-page {
+    padding: 15px;
+  }
+
+  .admin-about-header {
+    padding: 18px;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .admin-about-header-info {
+    align-items: flex-start;
+  }
+
+  .admin-about-header-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+
+  .admin-about-header h1 {
+    font-size: 21px;
+  }
+
+  .admin-about-header p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .admin-about-section {
+    padding: 18px;
+
+    border-radius: 14px;
+  }
+
+  .section-title {
+    align-items: flex-start;
+  }
+
+  .section-icon {
+    width: 42px;
+    height: 42px;
+
+    font-size: 17px;
+  }
+
+  .section-title h2 {
+    font-size: 17px;
+  }
+
+  .section-title p {
+    line-height: 1.5;
+  }
+
+  .form-grid {
+    gap: 15px;
+  }
+
+  .switch-row {
+    align-items: flex-start;
+  }
+
+  .setting-card {
+    padding: 14px;
+  }
+
+  .admin-about-actions {
+    justify-content: stretch;
+  }
+
+  .admin-about-save {
+    width: 100%;
+  }
+}

@@ -1,0 +1,427 @@
+/* =========================================
+   Admin Notifications Page
+========================================= */
+
+.admin-notifications-page {
+    width: 100%;
+    padding: 24px;
+    background: #f7f9f9;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   Header
+========================================= */
+
+.notifications-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.notifications-header h2 {
+    margin: 0;
+    color: #004d40;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.refresh-btn {
+    border: none;
+    background: #004d40;
+    color: #fff;
+    padding: 9px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.refresh-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+
+/* =========================================
+   Filters
+========================================= */
+
+.notification-filter {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.notification-filter button {
+    border: 1px solid #d9e2e0;
+    background: #fff;
+    color: #555;
+    padding: 8px 17px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.notification-filter button:hover {
+    border-color: #004d40;
+    color: #004d40;
+}
+
+.notification-filter button.active {
+    background: #004d40;
+    color: #fff;
+    border-color: #004d40;
+}
+
+
+/* =========================================
+   Actions
+========================================= */
+
+.notification-actions {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    flex-wrap: wrap;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #e3e9e7;
+    border-radius: 10px;
+}
+
+.notification-actions button {
+    border: none;
+    min-height: 36px;
+    padding: 7px 13px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+
+/* Select */
+
+.select-btn {
+    background: #eef5f3;
+    color: #004d40;
+}
+
+.select-btn:hover {
+    background: #dcece8;
+}
+
+
+/* Select All */
+
+.select-all {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px 10px;
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.select-all input {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    cursor: pointer;
+    accent-color: #004d40;
+}
+
+
+/* Mark All */
+
+.mark-all-read-btn {
+    background: #eef7f4;
+    color: #00695c;
+}
+
+.mark-all-read-btn:hover {
+    background: #dceee9;
+}
+
+
+/* Delete Selected */
+
+.delete-selected-btn {
+    background: #fff4f4;
+    color: #c62828;
+}
+
+.delete-selected-btn:hover:not(:disabled) {
+    background: #ffe4e4;
+}
+
+.delete-selected-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+
+/* Delete All */
+
+.delete-all-btn {
+    background: #c62828;
+    color: #fff;
+}
+
+.delete-all-btn:hover {
+    background: #a91f1f;
+}
+
+
+/* Cancel */
+
+.cancel-selection-btn {
+    background: #f1f1f1;
+    color: #555;
+}
+
+.cancel-selection-btn:hover {
+    background: #e5e5e5;
+}
+
+
+/* =========================================
+   Notifications List
+========================================= */
+
+.notifications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* =========================================
+   Notification Card
+========================================= */
+
+.notification-card {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    position: relative;
+    padding: 15px 17px;
+    background: #fff;
+    border: 1px solid #e5eaea;
+    border-radius: 11px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.notification-card:hover {
+    border-color: #c8d8d5;
+    transform: translateY(-1px);
+}
+
+
+/* Unread */
+
+.notification-card.unread {
+    background: #fbfefd;
+    border-left: 3px solid #004d40;
+}
+
+
+/* Selected */
+
+.notification-card.selected {
+    background: #f2f8f6;
+    border-color: #8db7af;
+}
+
+
+/* =========================================
+   Checkbox
+========================================= */
+
+.notification-checkbox {
+    width: 20px;
+    min-width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-checkbox input {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    cursor: pointer;
+    accent-color: #004d40;
+}
+
+
+/* =========================================
+   Icon
+========================================= */
+
+.notification-icon {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eef5f3;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+
+/* =========================================
+   Content
+========================================= */
+
+.notification-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.notification-content p {
+    margin: 0 0 7px;
+    color: #2f3735;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.notification-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #8a9491;
+    font-size: 12px;
+}
+
+.notification-meta span {
+    background: #f0f3f2;
+    color: #66706d;
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.notification-meta small {
+    font-size: 11px;
+}
+
+
+/* =========================================
+   Unread Dot
+========================================= */
+
+.unread-dot {
+    width: 8px;
+    height: 8px;
+    min-width: 8px;
+    border-radius: 50%;
+    background: #004d40;
+}
+
+
+/* =========================================
+   Loading / Empty
+========================================= */
+
+.loading,
+.empty {
+    text-align: center;
+    padding: 45px 20px;
+    color: #7b8582;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   Responsive
+========================================= */
+
+@media (max-width: 700px) {
+
+    .admin-notifications-page {
+        padding: 16px;
+    }
+
+    .notifications-header {
+        align-items: flex-start;
+    }
+
+    .notifications-header h2 {
+        font-size: 21px;
+    }
+
+    .notification-actions {
+        padding: 10px;
+    }
+
+    .notification-actions button {
+        flex: 1;
+        min-width: 120px;
+    }
+
+    .select-all {
+        width: 100%;
+        padding: 5px 4px;
+    }
+
+    .notification-card {
+        padding: 13px;
+        gap: 9px;
+    }
+
+    .notification-icon {
+        width: 36px;
+        min-width: 36px;
+        height: 36px;
+        font-size: 17px;
+    }
+
+    .notification-content p {
+        font-size: 13px;
+    }
+
+    .notification-meta {
+        flex-wrap: wrap;
+        gap: 7px;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    .notifications-header {
+        flex-direction: column;
+    }
+
+    .refresh-btn {
+        width: 100%;
+    }
+
+    .notification-filter {
+        width: 100%;
+    }
+
+    .notification-filter button {
+        flex: 1;
+    }
+
+    .notification-actions button {
+        width: 100%;
+        flex: none;
+    }
+}

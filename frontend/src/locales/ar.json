@@ -1,0 +1,1077 @@
+{
+    "municipalityName": "بلدية جباثا الخشب",
+  "municipalityDescription": "تقديم الخدمات البلدية بكفاءة وشفافية لجميع المواطنين.",
+
+  "quickLinks": "روابط سريعة",
+ 
+
+  "contact": "التواصل",
+
+
+ 
+  "defaultWorkingHours": "الأحد - الخميس، 08:00 صباحاً - 02:00 ظهراً",
+
+  "allRightsReserved": "جميع الحقوق محفوظة",
+  "developedBy": "تم التطوير بواسطة",
+
+
+
+
+
+ 
+  "contactPage": "تواصل معنا",
+  
+
+  "phoneNumber": "رقم الهاتف",
+  "workingHoursLabel": "أوقات الدوام",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "officialWebsite": "Official Website of Jubata Al-Khashab Municipality",
+
+  "contactInfo": "Contact Information",
+
+
+
+"dashboard": "لوحة التحكم",
+"citizens": "المواطنون",
+"martyrs": "الشهداء",
+"services": "الخدمات",
+"notifications": "الإشعارات",
+"search": "بحث...",
+"Jibatha Al-Khashab Municipality": "بلدية جباثا الخشب",
+"municipality": "بلدية جباثا الخشب",
+"home": "الرئيسية",
+"News": "الأخبار",
+"aboutUs": "من نحن",
+"ContactUs": "اتصل بنا",
+"Media": "الوسائط",
+"Login": "تسجيل الدخول",
+"Logout": "تسجيل الخروج",
+"myProfile": "الملف الشخصي",
+"user":"المستخدم",
+"mediaCenter":"الوسائط",
+"allMedia":"كل الوسائط",
+  "language":"اللغة",
+"result":"طلب",
+"free":"مجاناً",
+"manageCitizens": "إدارة المواطنين",
+"manageMartyrs": "إدارة الشهداء",
+"manageServices": "إدارة الخدمات",
+"registerData": "تسجيل بيانات",
+"welcome": "مرحبًا بكم في موقع البلدية",
+"villages": "القرى",
+"specialNeeds": "ذوو الاحتياجات الخاصة",
+
+" A leading municipality in services and quality of life": "بلدية رائدة في الخدمات وجودة الحياة",
+
+"citizen_services": "خدمات المواطنين",
+"martyrs_services": "خدمات الشهداء",
+"village_services": "خدمات القرى",
+"town_services": "خدمات البلدة",
+"electronic_services": "الخدمات الإلكترونية",
+"Special Needs": "ذوو الاحتياجات الخاصة",
+
+"adminNews": "إدارة الأخبار",
+"backToDashboard": "العودة إلى لوحة التحكم",
+"newsList": "قائمة الأخبار",
+"createNews": "إضافة خبر جديد",
+"mediaManager": "إدارة الوسائط",
+"settings": "الإعدادات",
+
+"manageVillages": "إدارة القرى",
+"manageTowns": "إدارة البلدات",
+"manageComments": "إدارة التعليقات",
+"manageNotifications": "إدارة الإشعارات",
+"mediaSettings": "إعدادات الوسائط",
+"publishingSettings": "إعدادات النشر",
+
+"manageMediaDescription": "إدارة جميع الصور والفيديوهات والملفات المرفوعة",
+"Upload Media": "رفع وسائط",
+"Upload": "رفع",
+"Uploading": "جارٍ الرفع...",
+"Upload Failed": "فشل رفع الملفات",
+"Total Files": "إجمالي الملفات",
+"Images": "الصور",
+"Videos": "الفيديوهات",
+"Documents": "المستندات",
+"All Types": "جميع الأنواع",
+
+"type": "النوع",
+"size": "الحجم",
+"village": "القرية",
+"uploadedBy": "تم الرفع بواسطة",
+"date": "التاريخ",
+"uploadDate": "تاريخ الرفع",
+"noDescription": "لا يوجد وصف",
+"editMedia": "تعديل الوسائط",
+"active": "نشط",
+"inactive": "غير نشط",
+"status": "الحالة",
+"files": "الملفات",
+"selectFiles": "يرجى اختيار ملف واحد على الأقل",
+"SelectNews": "اختر الخبر",
+"selectNews": "اختر الخبر",
+"selectVillage": "اختر القرية",
+"SaveFailed": "فشل حفظ التعديلات",
+"loading": "جارٍ التحميل...",
+"Loading...": "جارٍ التحميل...",
+"title": "العنوان",
+"description": "الوصف",
+"save": "حفظ",
+"saveChanges": "حفظ التعديلات",
+"cancel": "إلغاء",
+"delete": "حذف",
+"edit": "تعديل",
+
+"overview": "نظرة عامة",
+"statistics": "الإحصائيات",
+
+"totalCitizens": "إجمالي المواطنين",
+"totalMartyrs": "إجمالي الشهداء",
+"totalNews": "إجمالي الأخبار",
+"mediaFiles": "ملفات الوسائط",
+"totalComments": "إجمالي التعليقات",
+"totalServices": "إجمالي الخدمات",
+"serviceTypes": "أنواع الخدمات",
+"draftNews": "مسودات الأخبار",
+
+"latestNews": "آخر الأخبار",
+"latestRequests": "آخر الطلبات",
+"viewAll": "عرض الكل",
+"noData": "لا توجد بيانات",
+
+"adminProfile": "الملف الشخصي للأدمن",
+"manageAccount": "إدارة معلومات وحساب الأدمن",
+"personalInformation": "المعلومات الشخصية",
+"firstName": "الاسم الأول",
+"lastName": "اسم العائلة",
+"email": "البريد الإلكتروني",
+"role": "الصلاحية",
+
+"changePassword": "تغيير كلمة المرور",
+"currentPassword": "كلمة المرور الحالية",
+"newPassword": "كلمة المرور الجديدة",
+"confirmPassword": "تأكيد كلمة المرور",
+
+"profileUpdated": "تم تحديث الملف الشخصي بنجاح",
+"passwordChanged": "تم تغيير كلمة المرور بنجاح",
+"passwordNotMatch": "كلمتا المرور غير متطابقتين",
+
+"siteSettings": "إعدادات الموقع",
+"municipalityInformation": "معلومات البلدية",
+"siteName": "اسم البلدية",
+"logo": "الشعار",
+"logoPath": "مسار الشعار",
+
+"contactInformation": "معلومات التواصل",
+"phone": "رقم الهاتف",
+"whatsapp": "واتساب",
+"address": "العنوان",
+"workingHours": "أوقات الدوام",
+"workingHoursExample": "مثال: الأحد - الخميس 08:00 صباحًا - 02:00 ظهرًا",
+
+"socialMedia": "روابط التواصل الاجتماعي",
+
+"footerSettings": "إعدادات الفوتر",
+"developerName": "اسم المطور",
+"developerLink": "رابط المطور",
+
+"mapSettings": "إعدادات الخريطة",
+"mapOptional": "إضافة الخريطة اختيارية ويمكن تركها فارغة",
+"mapUrl": "رابط Google Maps",
+"latitude": "خط العرض",
+"longitude": "خط الطول",
+"mapImage": "صورة الخريطة",
+"mapImagePath": "مسار صورة الخريطة",
+
+"settingsSaved": "تم حفظ الإعدادات بنجاح",
+
+"requests": "الطلبات",
+"manageRequests": "إدارة الطلبات",
+"Manage Requests": "إدارة الطلبات",
+
+"pending": "قيد الانتظار",
+"approved": "مقبول",
+"rejected": "مرفوض",
+"Pending": "قيد الانتظار",
+"Approved": "مقبول",
+"Rejected": "مرفوض",
+
+"approve": "موافقة",
+"reject": "رفض",
+"details": "التفاصيل",
+"update": "تحديث",
+"Update": "تحديث",
+"actions": "الإجراءات",
+"Actions": "الإجراءات",
+
+"fullName": "الاسم الكامل",
+"Full Name": "الاسم الكامل",
+"nationalID": "الرقم الوطني",
+"National ID": "الرقم الوطني",
+"birthDate": "تاريخ الميلاد",
+"Birth Date": "تاريخ الميلاد",
+"service": "الخدمة",
+"Service": "الخدمة",
+"serviceType": "نوع الخدمة",
+"service Type": "نوع الخدمة",
+"adminNotes": "ملاحظات الأدمن",
+"Admin Notes": "ملاحظات الأدمن",
+"createdAt": "تاريخ الإنشاء",
+
+"Citizens": "المواطنون",
+"Address": "العنوان",
+"Phone": "الهاتف",
+
+"Are you sure?": "هل أنت متأكد؟",
+
+"+ addService": "إضافة خدمة",
+"addService": "إضافة خدمة",
+"Add Service": "إضافة خدمة",
+"No Services Found": "لا توجد خدمات",
+"Edit Service": "تعديل الخدمة",
+"editService": "تعديل الخدمة",
+"deleteService": "حذف الخدمة",
+"Service Title": "عنوان الخدمة",
+"serviceDescription": "وصف الخدمة",
+
+"Manage Service Types": "إدارة أنواع الخدمات",
+"manageServiceTypes": "إدارة أنواع الخدمات",
+"manageServicesTypes": "إدارة أنواع الخدمات",
+"+ Add Service Type": "إضافة نوع خدمة",
+"addServiceType": "إضافة نوع خدمة",
+"Edit Service Type": "تعديل نوع الخدمة",
+"Add Service Type": "إضافة نوع خدمة",
+"No Service Types Found": "لا توجد أنواع خدمات",
+"Select Service": "اختر الخدمة",
+"Requirements": "المتطلبات",
+"requirements": "المتطلبات",
+"Fees": "الرسوم",
+"fee": "الرسوم",
+"Request": "طلب",
+"Yes": "نعم",
+"No": "لا",
+"Show Details": "عرض التفاصيل",
+"Submit Request": "تقديم طلب",
+"Has Request Form": "يوجد نموذج طلب",
+
+"Person Type": "نوع الشخص",
+"General": "عام",
+"Citizen": "مواطن",
+"Martyr": "شهيد",
+
+"ContactMessage":"رسائل التواصل",
+"Request Details": "تفاصيل الطلب",
+"back": "رجوع",
+"notes": "الملاحظات",
+"documents": "المستندات",
+"Open": "فتح",
+"nodocuments": "لا توجد مستندات",
+"Request not found": "الطلب غير موجود",
+"Citizen Request Form": "نموذج طلب المواطن",
+"Your request has been submitted successfully.": "تم إرسال الطلب بنجاح",
+"Error submitting request.": "حدث خطأ أثناء إرسال الطلب",
+"My Requests": "طلباتي",
+"Submitted At": "تاريخ التقديم",
+"Submitting...": "جارٍ الإرسال...",
+"selectServiceType": "اختر نوع الخدمة",
+"Select Service Type": "اختر نوع الخدمة",
+
+"publishType": "نوع النشر",
+"public": "عام",
+"private": "خاص",
+"published": "منشور",
+"draft": "مسودة",
+"archived": "مؤرشف",
+
+"searchNews": "البحث في الأخبار",
+"newest": "الأحدث",
+"oldest": "الأقدم",
+"general": "عام",
+"views": "المشاهدات",
+"all": "الكل",
+"news": "الأخبار",
+"town": "البلدة",
+"publishing": "النشر",
+"area": "المساحة",
+"totalTowns": "إجمالي البلدات",
+"searchTown": "البحث عن بلدة",
+"population": "عدد السكان",
+
+"manageMedia": "إدارة الوسائط",
+"addPerson": "إضافة شخص",
+"manageNews": "إدارة الأخبار",
+"editNews": "تعديل الخبر",
+"deleteNews": "حذف الخبر",
+"newsTitle": "عنوان الخبر",
+"content": "المحتوى",
+
+"admin": "أدمن",
+"Admin": "أدمن",
+"logout": "تسجيل الخروج",
+
+"validation": {
+"fullNameRequired": "الاسم الكامل مطلوب",
+"nationalIdRequired": "الرقم الوطني مطلوب",
+"addressRequired": "العنوان مطلوب",
+"fullNameMinLength": "الاسم الكامل يجب أن يكون أكثر من 5 أحرف",
+"invalidFullName": "يرجى إدخال الاسم الكامل بشكل صحيح",
+"invalidNationalId": "الرقم الوطني غير صحيح",
+"addressMinLength": "العنوان يجب أن يكون أكثر من 5 أحرف",
+"invalidAddress": "العنوان قصير جدًا",
+"invalidPhone": "رقم الهاتف غير صحيح",
+"phoneRequired": "يرجى إدخال رقم الهاتف",
+"birthDateRequired": "يرجى اختيار تاريخ الميلاد",
+"birthDateFuture": "تاريخ الميلاد لا يمكن أن يكون في المستقبل",
+"birthDateTooOld": "تاريخ الميلاد غير صحيح",
+"deathDateRequired": "يرجى اختيار تاريخ الوفاة",
+"deathBeforeBirth": "تاريخ الوفاة يجب أن يكون بعد تاريخ الميلاد",
+"deathDateFuture": "تاريخ الوفاة لا يمكن أن يكون في المستقبل",
+"disabilityTypeRequired": "يرجى إدخال نوع الإعاقة",
+"notesTooLong": "الملاحظات يجب ألا تتجاوز 1000 حرف",
+"tooManyFiles": "الحد الأقصى 5 ملفات",
+"invalidFileType": "نوع الملف غير مسموح",
+"fileTooLarge": "حجم الملف يجب ألا يتجاوز 10 ميغابايت"
+},
+
+"contactUs": "تواصل معنا",
+"contactMunicipalityDescription": "نحن هنا لمساعدتك. تواصل مع بلدية جباثا الخشب.",
+"sendUsAMessage": "أرسل لنا رسالة",
+"sendMessageDescription": "أرسل رسالتك إلى البلدية وسنقوم بمراجعتها والرد عليك في أقرب وقت ممكن.",
+
+"name": "الاسم",
+"subject": "الموضوع",
+"message": "الرسالة",
+
+"enterYourName": "أدخل اسمك",
+"enterYourEmail": "أدخل بريدك الإلكتروني",
+"enterYourPhone": "أدخل رقم هاتفك",
+"enterMessageSubject": "أدخل موضوع الرسالة",
+"writeYourMessage": "اكتب رسالتك هنا...",
+
+"sendMessage": "إرسال الرسالة",
+"sending": "جارٍ الإرسال...",
+"messageSentSuccessfully": "تم إرسال الرسالة بنجاح.",
+"failedToSendMessage": "فشل في إرسال الرسالة.",
+
+"ourLocation": "موقعنا",
+"municipalityLocation": "موقع البلدية",
+
+"contactMessages": "رسائل التواصل",
+"contactMessagesDescription": "إدارة ومتابعة الرسائل المرسلة من صفحة تواصل معنا.",
+"contactMessagesFetchError": "فشل في جلب رسائل التواصل.",
+"contactStatusUpdateError": "فشل في تحديث حالة الرسالة.",
+"contactDeleteError": "فشل في حذف رسالة التواصل.",
+"deleteContactConfirm": "هل أنت متأكد من حذف رسالة التواصل؟",
+
+"noContactMessages": "لا توجد رسائل تواصل",
+"noContactMessagesDescription": "لم يتم إرسال أي رسائل من صفحة تواصل معنا حتى الآن.",
+"noContactSearchResults": "لا توجد نتائج مطابقة للبحث.",
+"changeSearchOrFilter": "حاول تغيير كلمات البحث أو الفلتر.",
+"clearFilters": "مسح الفلاتر",
+
+"loadingContactMessages": "جارٍ تحميل رسائل التواصل...",
+"refresh": "تحديث",
+"retry": "إعادة المحاولة",
+"viewDetails":"عرض التفاصيل",
+"viewMessage": "عرض الرسالة",
+"deleteMessage": "حذف الرسالة",
+
+"messageDetails": "تفاصيل الرسالة",
+"contactMessageDetails": "تفاصيل رسالة التواصل",
+"messageNumber": "رقم الرسالة",
+
+"sender": "المرسل",
+"senderInformation": "معلومات المرسل",
+"messageContent": "محتوى الرسالة",
+"messageStatus": "حالة الرسالة",
+"sentDate": "تاريخ الإرسال",
+
+"new": "جديدة",
+"read": "مقروءة",
+"replied": "تم الرد",
+
+"contactStatusNew": "جديدة",
+"contactStatusRead": "مقروءة",
+"contactStatusReplied": "تم الرد",
+
+"totalContactMessages": "إجمالي الرسائل",
+"newContactMessages": "الرسائل الجديدة",
+"readContactMessages": "الرسائل المقروءة",
+"repliedContactMessages": "الرسائل التي تم الرد عليها",
+
+"allContactMessages": "جميع رسائل التواصل",
+"searchContactMessages": "البحث في رسائل التواصل",
+"searchContactMessage": "البحث في رسالة التواصل",
+"showingContactMessages": "عرض رسائل التواصل",
+"showingContactMessage": "عرض رسالة التواصل",
+"of": "من",
+
+"notAvailable": "غير متوفر",
+"noSubject": "بدون موضوع",
+
+"close": "إغلاق",
+"deleting": "جارٍ الحذف...",
+
+
+  "Manage the municipality information displayed on the About Us page": "إدارة معلومات البلدية المعروضة في صفحة من نحن",
+
+  "Municipality Information": "معلومات البلدية",
+  "Basic information about the municipality": "المعلومات الأساسية عن البلدية",
+
+  "Page Title": "عنوان الصفحة",
+  "Subtitle": "العنوان الفرعي",
+  "Display Order": "ترتيب العرض",
+
+  "About Municipality": "عن البلدية",
+  "Main information about the municipality": "المعلومات الرئيسية عن البلدية",
+  "Description": "الوصف",
+
+  "History": "تاريخ البلدية",
+  "Historical information about the municipality": "المعلومات التاريخية عن البلدية",
+  "Show History": "إظهار التاريخ",
+  "Display history on the public page": "عرض تاريخ البلدية في الصفحة العامة",
+  "Show history": "إظهار التاريخ",
+
+  "Vision, Mission & Values": "الرؤية والرسالة والقيم",
+  "Define municipality vision, mission and values": "تحديد رؤية البلدية ورسالتها وقيمها",
+
+  "Vision": "الرؤية",
+  "Display vision on the public page": "عرض الرؤية في الصفحة العامة",
+  "Show vision": "إظهار الرؤية",
+
+  "Mission": "الرسالة",
+  "Display mission on the public page": "عرض الرسالة في الصفحة العامة",
+  "Show mission": "إظهار الرسالة",
+
+  "Values": "القيم",
+  "Display values on the public page": "عرض القيم في الصفحة العامة",
+  "Show values": "إظهار القيم",
+
+  "Location": "الموقع",
+  "Municipality location information": "معلومات موقع البلدية",
+
+  "Latitude": "خط العرض",
+  "Longitude": "خط الطول",
+
+  "Contact Information": "معلومات الاتصال",
+  "Contact details displayed to visitors": "بيانات الاتصال المعروضة للزوار",
+
+  "Secondary Phone": "رقم الهاتف الإضافي",
+  "Email": "البريد الإلكتروني",
+  "Website": "الموقع الإلكتروني",
+  "Show Contact": "إظهار معلومات الاتصال",
+  "Display contact information": "عرض معلومات الاتصال",
+
+  "Working Hours": "ساعات العمل",
+  "Municipality working days and hours": "أيام وساعات عمل البلدية",
+  "Working Days": "أيام العمل",
+
+  "Social Media": "وسائل التواصل الاجتماعي",
+  "Official municipality social media links": "روابط حسابات البلدية الرسمية على وسائل التواصل الاجتماعي",
+  "Facebook": "فيسبوك",
+  "Instagram": "إنستغرام",
+  "YouTube": "يوتيوب",
+  "Telegram": "تلغرام",
+  "WhatsApp": "واتساب",
+  "Show Social Media": "إظهار وسائل التواصل الاجتماعي",
+  "Display social media links": "عرض روابط وسائل التواصل الاجتماعي",
+
+  "Images & Branding": "الصور والهوية البصرية",
+  "Images used on the public About page": "الصور المستخدمة في صفحة من نحن",
+  "Logo": "الشعار",
+  "Main Image": "الصورة الرئيسية",
+  "Cover Image": "صورة الغلاف",
+
+  "SEO Settings": "إعدادات محركات البحث",
+  "Search engine information": "معلومات تحسين الظهور في محركات البحث",
+  "Meta Title": "عنوان محركات البحث",
+  "Meta Description": "وصف محركات البحث",
+
+  "Display Settings": "إعدادات العرض",
+  "Control About page visibility": "التحكم في ظهور صفحة من نحن",
+  "About Page": "صفحة من نحن",
+  "Enable About page": "تفعيل صفحة من نحن",
+  "Contact": "الاتصال",
+
+  "Active": "مفعّلة",
+  "Hidden": "مخفية",
+
+  "Loading About information...": "جاري تحميل معلومات البلدية...",
+  "Saving...": "جاري الحفظ...",
+  "Save Changes": "حفظ التغييرات",
+
+  "About information saved successfully": "تم حفظ معلومات البلدية بنجاح",
+  "Failed to load About information": "فشل في تحميل معلومات البلدية",
+  "Failed to save About information": "فشل في حفظ معلومات البلدية",
+  
+
+  "About Jabata Al Khashab": "عن بلدية جباثا الخشب",
+  "A municipal community serving its citizens and contributing to the development of the local area.": "مجتمع بلدي يخدم المواطنين ويساهم في تنمية المنطقة المحلية.",
+  "Quneitra Governorate - Syria": "محافظة القنيطرة - سوريا",
+
+  "Who We Are": "من نحن",
+  "Jabata Al Khashab Municipality": "بلدية جباثا الخشب",
+  "Jabata Al Khashab Municipality is a local administrative institution working to serve the community and support the development of the villages and areas under its responsibility.": "بلدية جباثا الخشب هي مؤسسة إدارية محلية تعمل على خدمة المجتمع ودعم تنمية القرى والمناطق التابعة لها.",
+  "The municipality seeks to provide better public services, improve communication with citizens, support local initiatives and contribute to creating a more organized and sustainable community.": "تسعى البلدية إلى تقديم خدمات عامة أفضل، وتحسين التواصل مع المواطنين، ودعم المبادرات المحلية، والمساهمة في بناء مجتمع أكثر تنظيماً واستدامة.",
+  "Through this digital platform, citizens can access municipal information, services, news, announcements and other useful resources more easily.": "من خلال هذه المنصة الرقمية، يمكن للمواطنين الوصول بسهولة أكبر إلى المعلومات والخدمات البلدية والأخبار والإعلانات وغيرها من الموارد المفيدة.",
+  "Our Municipality": "بلديتنا",
+  "Serving citizens, supporting development and strengthening communication with the community.": "خدمة المواطنين، ودعم التنمية، وتعزيز التواصل مع المجتمع.",
+
+  "Our Community": "مجتمعنا",
+  "A Community With Identity and Future": "مجتمع ذو هوية ومستقبل",
+  "Jabata Al Khashab is part of Quneitra Governorate and represents a local community with its own character, history and social identity.": "تُعد جباثا الخشب جزءاً من محافظة القنيطرة، وتمثل مجتمعاً محلياً يتميز بطابعه وتاريخه وهويته الاجتماعية الخاصة.",
+  "The municipality works together with citizens and local communities to improve the quality of life and support initiatives that contribute to the future of the area.": "تعمل البلدية بالتعاون مع المواطنين والمجتمعات المحلية على تحسين جودة الحياة ودعم المبادرات التي تساهم في مستقبل المنطقة.",
+
+  "Serving the local community": "خدمة المجتمع المحلي",
+  "Improving public services": "تحسين الخدمات العامة",
+  "Supporting local development": "دعم التنمية المحلية",
+  "Strengthening communication with citizens": "تعزيز التواصل مع المواطنين",
+
+  "Our Values": "قيمنا",
+  "What We Believe In": "ما نؤمن به",
+  "Community": "المجتمع",
+  "Putting citizens and the local community at the heart of our work.": "وضع المواطنين والمجتمع المحلي في صميم عملنا.",
+  "Cooperation": "التعاون",
+  "Working together with citizens and local institutions to achieve common goals.": "العمل مع المواطنين والمؤسسات المحلية لتحقيق الأهداف المشتركة.",
+  "Development": "التنمية",
+  "Supporting projects and initiatives that improve the local environment.": "دعم المشاريع والمبادرات التي تساهم في تحسين البيئة المحلية.",
+  "Transparency": "الشفافية",
+  "Providing clear information and maintaining open communication with citizens.": "تقديم معلومات واضحة والحفاظ على تواصل مفتوح مع المواطنين.",
+
+  "Municipal Role": "دور البلدية",
+  "What We Do": "ماذا نقدم",
+  "Public Services": "الخدمات العامة",
+  "Providing and supporting municipal services for citizens.": "تقديم ودعم الخدمات البلدية للمواطنين.",
+  "Environment": "البيئة",
+  "Supporting environmental care, cleanliness and preservation of public spaces.": "دعم الحفاظ على البيئة والنظافة والمحافظة على الأماكن العامة.",
+
+  "Listening to citizens and receiving their requests and feedback.": "الاستماع إلى المواطنين واستقبال طلباتهم وملاحظاتهم.",
+  "Digital Services": "الخدمات الرقمية",
+  "Making municipal information and services easier to access online.": "تسهيل الوصول إلى المعلومات والخدمات البلدية عبر الإنترنت.",
+
+
+  "Jabata Al Khashab": "جباثا الخشب",
+  "Located in Quneitra Governorate in the Syrian Arab Republic.": "تقع في محافظة القنيطرة في الجمهورية العربية السورية.",
+  "Quneitra Governorate": "محافظة القنيطرة",
+  "Municipality Location": "موقع البلدية",
+  "Map can be added here": "يمكن إضافة الخريطة هنا",
+
+  "Digital Municipality": "البلدية الرقمية",
+  "Your Municipality, Closer to You": "بلديتك أقرب إليك",
+  "Our digital platform makes it easier for citizens to discover municipal services, follow news and announcements, access media and communicate with the municipality.": "تتيح منصتنا الرقمية للمواطنين سهولة اكتشاف الخدمات البلدية ومتابعة الأخبار والإعلانات والوصول إلى الوسائط والتواصل مع البلدية.",
+  "Explore Services": "استكشف الخدمات",
+  "Contact Us": "تواصل معنا",
+
+  "Jabata Al Khashab Municipality - Serving the community with responsibility and commitment.": "بلدية جباثا الخشب - نخدم المجتمع بمسؤولية والتزام."
+,"Vision & Mission": "الرؤية والرسالة",
+  "Our Direction": "توجهنا",
+ " viewDetails":"عرض تفاصيل",
+ "Service not found": "الخدمة غير موجودة",
+"No service types available": "لا توجد أنواع خدمات متاحة",
+"No description": "لا يوجد وصف",
+"Choose the required service type": "اختر نوع الخدمة المطلوبة"
+,"Status":"الحالة",
+"Fee":"الرسوم",
+"Type":"النوع"
+,
+  "loadingAboutInformation": "جارٍ تحميل معلومات عن البلدية...",
+
+  "jabataAlKhashabMunicipality": "بلدية جباتا الخشب",
+  "aboutJabataAlKhashab": "عن بلدية جباتا الخشب",
+  "municipalCommunityServing": "مجتمع بلدي يخدم مواطنيه ويساهم في تنمية المنطقة المحلية.",
+  "jabataAlKhashabDescription": "بلدية جباتا الخشب هي مؤسسة إدارية محلية تعمل على خدمة المجتمع ودعم تنمية القرى والمناطق الواقعة ضمن مسؤوليتها.",
+  "jabataAlKhashabHistory": "تمثل بلدية جباتا الخشب مؤسسة محلية مهمة تعمل على خدمة المواطنين والمساهمة في تنمية المجتمع المحلي.",
+  "jabataAlKhashabVision": "بناء مجتمع محلي متطور ومنظم ومستدام يوفر خدمات أفضل للمواطنين.",
+  "jabataAlKhashabMission": "تقديم خدمات بلدية فعالة، وتعزيز التواصل مع المواطنين، ودعم التنمية المحلية.",
+  "jabataAlKhashabValues": "المجتمع والتعاون والتنمية والشفافية والمسؤولية.",
+
+  "quneitraGovernorate": "محافظة القنيطرة",
+  "jabataAlKhashab": "جباتا الخشب",
+
+  "whoWeAre": "من نحن",
+  "ourMunicipality": "بلديتنا",
+  "servingCitizensSupportingDevelopment": "خدمة المواطنين، ودعم التنمية، وتعزيز التواصل مع المجتمع.",
+
+  "municipalitySeeks": "تسعى البلدية إلى تقديم خدمات عامة أفضل، وتحسين التواصل مع المواطنين، ودعم المبادرات المحلية، والمساهمة في بناء مجتمع أكثر تنظيمًا واستدامة.",
+  "digitalPlatformAccess": "من خلال هذه المنصة الرقمية، يمكن للمواطنين الوصول بسهولة أكبر إلى معلومات البلدية وخدماتها وأخبارها وإعلاناتها وغيرها من الموارد المفيدة.",
+
+  "ourCommunity": "مجتمعنا",
+  "communityWithIdentityFuture": "مجتمع يمتلك هوية ومستقبلًا",
+  "communityDevelopment": "تعمل البلدية بالتعاون مع المواطنين والمجتمعات المحلية على تحسين جودة الحياة ودعم المبادرات التي تساهم في مستقبل المنطقة.",
+
+  "servingLocalCommunity": "خدمة المجتمع المحلي",
+  "improvingPublicServices": "تحسين الخدمات العامة",
+  "supportingLocalDevelopment": "دعم التنمية المحلية",
+  "strengtheningCommunication": "تعزيز التواصل مع المواطنين",
+
+  "visionMission": "الرؤية والرسالة",
+  "ourDirection": "وجهتنا",
+  "vision": "الرؤية",
+  "mission": "الرسالة",
+  "values": "القيم",
+
+  "ourValues": "قيمنا",
+  "whatWeBelieveIn": "ما نؤمن به",
+
+  "community": "المجتمع",
+  "communityValue": "وضع المواطنين والمجتمع المحلي في صميم عملنا.",
+
+  "cooperation": "التعاون",
+  "cooperationValue": "العمل مع المواطنين والمؤسسات المحلية لتحقيق الأهداف المشتركة.",
+
+  "development": "التنمية",
+  "developmentValue": "دعم المشاريع والمبادرات التي تساهم في تحسين البيئة المحلية.",
+
+  "transparency": "الشفافية",
+
+  "municipalRole": "دور البلدية",
+  "whatWeDo": "ماذا نفعل",
+
+  "publicServices": "الخدمات العامة",
+  "publicServicesDescription": "تقديم ودعم الخدمات البلدية للمواطنين.",
+
+  "environment": "البيئة",
+  "environmentDescription": "دعم الاهتمام بالبيئة والنظافة والحفاظ على الأماكن العامة.",
+
+ 
+  "citizensDescription": "الاستماع إلى المواطنين واستقبال طلباتهم وملاحظاتهم.",
+
+  "digitalServices": "الخدمات الرقمية",
+  "digitalServicesDescription": "تسهيل الوصول إلى معلومات وخدمات البلدية عبر الإنترنت.",
+
+  "location": "الموقع",
+
+  "viewLocationGoogleMaps": "عرض الموقع على خرائط Google",
+  "mapCanBeAddedHere": "يمكن إضافة الخريطة هنا",
+
+  "workingDays": "أيام العمل",
+
+
+ 
+  "contactMunicipality": "التواصل مع البلدية",
+ 
+
+  "digitalMunicipality": "البلدية الرقمية",
+  "yourMunicipalityCloser": "بلديتك أقرب إليك",
+  "digitalPlatformDescription": "تجعل منصتنا الرقمية من السهل على المواطنين اكتشاف الخدمات البلدية، ومتابعة الأخبار والإعلانات، والوصول إلى الوسائط والتواصل مع البلدية.",
+
+  "exploreServices": "استكشف الخدمات",
+
+
+  "aboutFooterNote": "بلدية جباتا الخشب - خدمة المجتمع بمسؤولية والتزام.",
+"A leading municipality in services and quality of life":"مساهم رائد في تقديم الخدمات وتعزيز جودة الحياة."
+,"Quneitra - Jabatha Al-Khashab":"القنيطرة - جباثا الخشب",
+ "We are here to help you. Contact Jubata Al-Khashab Municipality.":"نحن هنا لمساعدتك. تواصل مع بلدية جباثا الخشب."
+,
+
+
+  "exploreLatestMedia": "استكشف أحدث الصور والفيديوهات والوثائق",
+
+
+  "images": "الصور",
+  "videos": "الفيديوهات",
+
+
+
+  "searchMedia": "البحث في الوسائط...",
+
+  "showing": "عرض",
+  "media": "وسائط",
+
+  "noMediaAvailable": "لا توجد وسائط متاحة",
+  "noMediaMatchesFilters": "لا توجد وسائط تطابق عوامل التصفية الحالية",
+
+  "viewImage": "عرض الصورة",
+  "openFile": "فتح الملف",
+
+  "mediaFile": "وسائط",
+  
+
+  "addVillage": "إضافة قرية",
+  "totalVillages": "إجمالي القرى",
+
+  "searchVillage": "البحث عن قرية...",
+  
+  "noVillages": "لا توجد قرى",
+  
+  "editVillage": "تعديل القرية",
+  "villageName": "اسم القرية",
+  "villageNameArabic": "اسم القرية بالعربية",
+  "villageNameEnglish": "اسم القرية بالإنكليزية",
+
+  "descriptionArabic": "وصف القرية بالعربية",
+  "descriptionEnglish": "وصف القرية بالإنكليزية",
+  "selectTown": "اختر البلدة",
+ 
+  "mediaUrl": "رابط الصورة أو الفيديو",
+
+  "add": "إضافة",
+
+  "confirmDelete": "هل أنت متأكد من حذف هذه القرية؟",
+  "villageAdded": "تمت إضافة القرية بنجاح",
+  "villageUpdated": "تم تحديث القرية بنجاح",
+  "villageDeleted": "تم حذف القرية بنجاح"
+ ,
+ 
+
+ 
+
+  "exploreVillagesDescription": "استكشف معلومات القرى ",
+  "noVillagesAvailable": "لا توجد قرى متاحة",
+  "noImage": "لا توجد صورة",
+  
+
+
+  "municipalityNewsAndAnnouncements": "آخر أخبار وإعلانات البلدية",
+  
+  "clear": "مسح",
+  "noNewsAvailable": "لا توجد أخبار متاحة",
+  
+  
+
+  
+
+ 
+  "share": "مشاركة",
+  "linkCopied": "تم نسخ الرابط",
+  "relatedNews": "أخبار ذات صلة",
+
+  "comments": "التعليقات",
+  "noCommentsYet": "لا توجد تعليقات حتى الآن",
+
+  "reply": "رد",
+  "hideReplies": "إخفاء الردود",
+  "showReplies": "عرض الردود",
+
+  "addComment": "إضافة تعليق",
+  "writeYourComment": "اكتب تعليقك...",
+  "sendComment": "إرسال التعليق",
+
+  "writeReply": "كتابة رد",
+  "writeYourReply": "اكتب ردك...",
+  "sendReply": "إرسال الرد",
+
+
+  "newsNotFound": "الخبر غير موجود",
+  
+  "serviceDirectory": "دليل الخدمات",
+  "browseAllMunicipalityServices": "تصفح جميع خدمات البلدية",
+  "didntFindTheServiceYouAreLookingFor": "لم تجد الخدمة التي تبحث عنها؟",
+  
+ 
+
+
+  "success": "نجاح",
+  "error": "خطأ",
+
+
+  "noRequirements": "لا توجد متطلبات",
+  "fees": "الرسوم",
+  "serviceLink": "رابط الخدمة",
+
+  "submitRequest": "تقديم الطلب",
+ 
+  "sendRequest": "إرسال الطلب",
+ 
+
+  "pleaseLoginFirst": "يرجى تسجيل الدخول أولاً",
+
+  "requestSubmittedSuccessfully": "تم تقديم طلبك بنجاح. سيتم مراجعته قريباً.",
+  "unexpectedResponseFromServer": "استجابة غير متوقعة من الخادم",
+  "somethingWentWrong": "حدث خطأ ما",
+
+
+    "fileTooLarge": "حجم الملف كبير جداً. الحد الأقصى المسموح به هو 10 ميغابايت.",
+    "fullNameRequired": "الاسم الكامل مطلوب.",
+    "fullNameTwoWords": "يرجى إدخال الاسم الكامل المكوّن من كلمتين على الأقل.",
+    "nationalIdRequired": "الرقم الوطني مطلوب.",
+    "invalidNationalId": "الرقم الوطني يجب أن يتكون من 8 إلى 20 رقماً.",
+    "birthDateRequired": "تاريخ الميلاد مطلوب.",
+    "addressRequired": "العنوان مطلوب.",
+    "phoneRequired": "رقم الهاتف مطلوب.",
+    "invalidPhone": "رقم الهاتف غير صالح.",
+    "deathDateRequired": "تاريخ الوفاة مطلوب.",
+    "disabilityTypeRequired": "نوع الإعاقة مطلوب.",
+  
+
+
+ 
+  "nationalId": "الرقم الوطني",
+ 
+
+  "deathDate": "تاريخ الوفاة",
+  "disabilityType": "نوع الإعاقة",
+ 
+  "uploadDocuments": "رفع المستندات",
+  "chooseFile": "اختر ملف",
+"noFileChosen": "لم يتم اختيار أي ملف",
+"about": "حول البلدية",
+
+ 
+  "areYouSure": "هل أنت متأكد؟",
+  
+
+
+  "selectService": "اختر الخدمة",
+ 
+  "savedSuccessfully": "تم الحفظ بنجاح",
+  "errorSavingData": "حدث خطأ أثناء حفظ البيانات",
+  
+
+
+  "requestNotFound": "الطلب غير موجود",
+  "requestDetails": "تفاصيل الطلب",
+
+  "document": "مستند",
+  "open": "فتح",
+  "noDocuments": "لا توجد مستندات",
+
+  "notFound": "غير موجود",
+  "martyrDetails": "تفاصيل الشهيد",
+  "citizenDetails": "تفاصيل المواطن",
+  "specialNeedsDetails": "تفاصيل ذوي الاحتياجات الخاصة",
+"submittedDate": "تاريخ التقديم",
+  " + addService":"إضافة الخدمة",
+
+ " addServiceType+":"إضافة نوع الخدمة",
+
+ 
+  "generalMunicipality": "البلدية بشكل عام",
+  "newsMediaUpload": "رفع صور وفيديوهات ومستندات الخبر",
+  "publish": "نشر الخبر",
+  "saveDraft": "حفظ كمسودة",
+  
+  
+  "uploadMedia": "رفع وسائط",
+  "totalFiles": "إجمالي الملفات",
+  
+  "allTypes": "جميع الأنواع",
+  
+ 
+  "drafts": "مسودة",
+ 
+  "noDrafts": "لا توجد أخبار مسودة حالياً"
+,
+  "addTown": "إضافة بلدة",
+
+  "noTowns": "لا توجد بلدات",
+
+  "editTown": "تعديل البلدة",
+  "townName": "اسم البلدة",
+  
+  "logoUrl": "رابط الشعار",
+
+
+  "townAdded": "تمت إضافة البلدة بنجاح",
+  "townUpdated": "تم تعديل البلدة بنجاح",
+  "townDeleted": "تم حذف البلدة بنجاح",
+  
+  "failedToFetchContactMessages": "فشل في جلب رسائل التواصل",
+
+  "unknown": "غير معروف",
+  "failedToUpdateContactStatus": "فشل في تحديث حالة الرسالة",
+  "confirmDeleteContactMessage": "هل أنت متأكد أنك تريد حذف رسالة التواصل هذه؟",
+  "failedToDeleteContactMessage": "فشل في حذف رسالة التواصل",
+
+  "contactStatsTotal": "إجمالي الرسائل",
+  "contactStatsNew": "الرسائل الجديدة",
+  "contactStatsRead": "الرسائل المقروءة",
+  "contactStatsReplied": "الرسائل التي تم الرد عليها",
+  
+  "adminNotifications": "إشعارات الإدارة",
+
+  "unread": "غير مقروءة",
+ 
+  "noNotifications": "لا توجد إشعارات"
+,
+  "newCitizenRequest": "تم تقديم طلب جديد من المواطن {{name}}.",
+  "newMartyrRequest": "تم تقديم طلب جديد للشهيد من قبل {{name}}.",
+  "newSpecialNeedsRequest": "تم تقديم طلب جديد لذوي الاحتياجات الخاصة من قبل {{name}}.",
+  "requestStatusNotification": "تم تحديث حالة طلبك إلى: {{status}}.",
+
+  "requestStatuses": {
+    "pending": "قيد الانتظار",
+    "approved": "مقبول",
+    "rejected": "مرفوض"
+  }
+
+,
+  "qrCode": "رمز QR للموقع",
+  "qrCodeDescription": "يمكنك تحميل رمز QR الخاص بالموقع واستخدامه في المنشورات والبروشورات والمواد المطبوعة.",
+  "websiteLink": "رابط الموقع",
+  "downloadQRCode": "تحميل رمز QR",
+"towns":"البلدة",
+
+  "person": "نسمة",
+  "squareKilometer": "كم²",
+  
+  "readMore": "قراءة المزيد",
+  "Village News": "أخبار القرية",
+  "No village news": "لا توجد أخبار لهذه القرية حاليًا",
+  "Population": "عدد السكان",
+  "Area": "المساحة",
+  "Back": "رجوع",
+  "Open Document": "فتح المستند",
+  "No Media Available": "لا توجد وسائط متاحة",
+
+  "Village not found": "القرية غير موجودة",
+  "Village": "القرية",
+  "Latest news will appear here": "ستظهر آخر الأخبار هنا",
+  "martyrName": "اسم الشهيد",
+"beneficiaryName": "اسم المستفيد",
+"selectDisabilityType": "اختر نوع الإعاقة",
+"physicalDisability": "إعاقة حركية",
+"visualDisability": "إعاقة بصرية",
+"hearingDisability": "إعاقة سمعية",
+"intellectualDisability": "إعاقة ذهنية",
+"speechDisability": "إعاقة نطق وتواصل",
+"multipleDisabilities": "إعاقات متعددة",
+"otherDisability": "أخرى",
+"otherDisabilityType": "اكتب نوع الإعاقة",
+"enterOtherDisability": "يرجى كتابة نوع الإعاقة",
+
+
+  "otherDisabilityRequired": "يرجى كتابة نوع الإعاقة",
+  
+  "serviceInformation": "معلومات الخدمة",
+  "personInformation": "معلومات الشخص",
+  "addPersonDescription": "إضافة بيانات شخص جديد إلى النظام"
+
+
+, "validation.fullNameTwoWords": "يرجى إدخال الاسم الكامل مكوّنًا من كلمتين على الأقل.",
+
+
+ 
+
+  "noServicesFound": "لا توجد خدمات",
+
+  "addServiceTitle": "إضافة خدمة",
+  "editServiceTitle": "تعديل الخدمة",
+
+  "serviceTitle": "عنوان الخدمة",
+
+  "serviceStatus": "حالة الخدمة",
+  "serviceIcon": "أيقونة الخدمة",
+
+
+  "water": "المياه",
+  "housing": "الإسكان",
+  "other": "أخرى",
+
+  
+
+  "deleteServiceConfirm": "هل أنت متأكد من رغبتك في حذف هذه الخدمة؟",
+  "serviceSaveError": "حدث خطأ أثناء حفظ الخدمة",
+  "serviceDeleteError": "حدث خطأ أثناء حذف الخدمة",
+
+  "showDetails": "عرض التفاصيل",
+  "submit": "تقديم طلب",
+  "reviews": "التقييمات",
+  
+
+
+  "request": "الطلب",
+  
+
+  "typeTitle": "عنوان نوع الخدمة",
+ 
+  "detailsButtonText": "نص زر عرض التفاصيل",
+  "requestButtonText": "نص زر تقديم الطلب",
+
+  "hasRequestForm": "هل يوجد نموذج طلب؟",
+
+
+
+  "yes": "نعم",
+  "no": "لا",
+
+  "personType": "نوع الشخص",
+
+  "citizen": "مواطن",
+  "martyr": "شهيد",
+
+
+  "noServiceTypesFound": "لا توجد أنواع خدمات",
+  "errorWhileSaving": "حدث خطأ أثناء الحفظ",
+  "confirmDeleteServiceType": "هل أنت متأكد من حذف نوع الخدمة؟",
+  "editServiceType":"إضافة نوع خدمة",
+  
+  "select": "تحديد",
+  "selectAll": "تحديد الكل",
+  "markAllAsRead": "تحديد الكل كمقروء",
+  "deleteSelected": "حذف المحدد",
+  "deleteAll": "حذف الكل",
+
+  "confirmDeleteSelectedNotifications": "هل أنت متأكد من حذف الإشعارات المحددة؟",
+  "confirmDeleteAllNotifications": "هل أنت متأكد من حذف جميع الإشعارات؟",
+  
+
+"cancelSelection": "إلغاء التحديد",
+
+"selectedMessages": "الرسائل المحددة",
+
+
+"selectMessage": "تحديد الرسالة",
+"confirmDeleteSelectedContactMessages": "هل أنت متأكد من حذف الرسائل المحددة؟",
+"failedToDeleteSelectedContactMessages": "فشل حذف الرسائل المحددة",
+
+ 
+
+ 
+
+  "searchRequests": "البحث في الطلبات...",
+  "allRequests": "جميع الطلبات",
+
+  "selectedRequests": "الطلبات المحددة",
+  "selectRequest": "تحديد الطلب",
+
+  "confirmDeleteSelectedRequests": "هل أنت متأكد من رغبتك في حذف الطلبات المحددة؟",
+  "failedToDeleteSelectedRequests": "فشل حذف الطلبات المحددة",
+
+  "showingRequests": "عرض",
+
+  "noRequests": "لا توجد طلبات",
+
+  "writeAdminNotes": "اكتب ملاحظات الإدارة هنا...",
+  "saveNotes": "حفظ الملاحظات",
+  "saving": "جاري الحفظ...",
+  "notesSavedSuccessfully": "تم حفظ ملاحظات الإدارة بنجاح.",
+  "failedToSaveNotes": "فشل حفظ ملاحظات الإدارة.",
+  
+  "searchServices": "البحث عن الخدمات...",
+  "searchServiceTypes": "البحث عن أنواع الخدمات..."
+,"allStatuses": "كل الحالات",
+  "allServices": "كل الخدمات",
+  "reset": "إعادة تعيين"
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

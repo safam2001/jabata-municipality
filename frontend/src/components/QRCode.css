@@ -1,0 +1,133 @@
+.qr-page {
+  min-height: 100%;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.qr-card {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 35px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.qr-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  text-align: start;
+  margin-bottom: 30px;
+}
+
+.qr-icon {
+  width: 58px;
+  height: 58px;
+  min-width: 58px;
+  border-radius: 14px;
+  background: #004d40;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.qr-header h2 {
+  margin: 0 0 6px;
+  color: #222;
+  font-size: 25px;
+}
+
+.qr-header p {
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.qr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  padding: 25px;
+  border: 1px solid #eeeeee;
+  border-radius: 16px;
+  width: fit-content;
+  margin: 0 auto 25px;
+}
+
+.qr-url {
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 22px;
+  overflow: hidden;
+}
+
+.qr-url span {
+  display: block;
+  color: #777;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.qr-url strong {
+  display: block;
+  color: #004d40;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.qr-download-btn {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 20px;
+  background: #004d40;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.qr-download-btn:hover {
+  background: #00382f;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+
+  .qr-page {
+    padding: 20px 12px;
+  }
+
+  .qr-card {
+    padding: 25px 18px;
+  }
+
+  .qr-header {
+    align-items: flex-start;
+  }
+
+  .qr-header h2 {
+    font-size: 21px;
+  }
+
+  .qr-container {
+    padding: 18px;
+  }
+
+  .qr-container svg {
+    width: 260px;
+    height: 260px;
+  }
+
+}

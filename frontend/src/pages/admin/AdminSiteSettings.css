@@ -1,0 +1,705 @@
+/* =====================================
+   Admin Site Settings
+   Professional Dashboard Style
+===================================== */
+
+.site-settings-container {
+  padding: 30px;
+  background: #f5f7fa;
+  min-height: 100vh;
+  direction: rtl;
+}
+
+
+/* =========================
+   Page Header
+========================= */
+
+.page-header {
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  background:white;
+
+  padding:20px 25px;
+
+  border-radius:16px;
+
+  margin-bottom:25px;
+
+  box-shadow:
+  0 8px 25px rgba(0,0,0,0.08);
+
+}
+
+
+.page-header h2 {
+
+  margin:0;
+
+  color:#004d40;
+
+  font-size:26px;
+
+  font-weight:700;
+
+}
+
+
+
+/* =========================
+   Save Button
+========================= */
+
+.save-btn {
+
+  display:flex;
+
+  align-items:center;
+
+  gap:8px;
+
+  background:#004d40;
+
+  color:white;
+
+  border:none;
+
+  padding:12px 25px;
+
+  border-radius:10px;
+
+  cursor:pointer;
+
+  font-size:15px;
+
+  transition:.3s;
+
+}
+
+
+.save-btn:hover {
+
+  background:#00695c;
+
+  transform:translateY(-2px);
+
+}
+
+
+
+/* =========================
+   Cards
+========================= */
+
+
+.settings-card {
+
+  background:white;
+
+  border-radius:18px;
+
+  padding:25px;
+
+  margin-bottom:25px;
+
+
+  box-shadow:
+
+  0 10px 30px rgba(0,0,0,.07);
+
+
+  border-right:5px solid #cfa23b;
+
+
+}
+
+
+
+.settings-card h3 {
+
+  display:flex;
+
+  align-items:center;
+
+  gap:10px;
+
+
+  color:#004d40;
+
+  margin-bottom:20px;
+
+  font-size:20px;
+
+}
+
+
+
+/* =========================
+   Forms
+========================= */
+
+
+.form-group {
+
+  display:flex;
+
+  flex-direction:column;
+
+  margin-bottom:18px;
+
+}
+
+
+
+.form-group label {
+
+  margin-bottom:8px;
+
+  font-weight:600;
+
+  color:#333;
+
+  font-size:14px;
+
+}
+
+
+
+.form-group input,
+.form-group textarea {
+
+
+  width:100%;
+
+  padding:13px 15px;
+
+  border:1px solid #ddd;
+
+  border-radius:10px;
+
+  font-size:15px;
+
+  outline:none;
+
+  transition:.3s;
+
+  background:#fafafa;
+
+}
+
+
+
+.form-group input:focus,
+.form-group textarea:focus {
+
+
+  border-color:#004d40;
+
+  background:white;
+
+  box-shadow:
+  0 0 0 3px rgba(0,77,64,.1);
+
+}
+
+
+
+.form-group textarea {
+
+  resize:vertical;
+
+}
+
+
+
+/* =========================
+   Grid
+========================= */
+
+
+.form-grid {
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(2,1fr);
+
+  gap:20px;
+
+}
+/* =========================
+   Loading
+========================= */
+
+
+.loading-box {
+
+  min-height:60vh;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  font-size:22px;
+
+  color:#004d40;
+
+  font-weight:700;
+
+}
+
+
+
+/* =========================
+   Optional Text
+========================= */
+
+
+.optional-text {
+
+  background:#fff8e1;
+
+  color:#8a6d1d;
+
+  padding:12px 15px;
+
+  border-radius:10px;
+
+  margin-bottom:20px;
+
+  font-size:14px;
+
+}
+
+
+
+/* =========================
+   Input Placeholder
+========================= */
+
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+
+  color:#999;
+
+  font-size:13px;
+
+}
+
+
+
+/* =========================
+   Icon Style
+========================= */
+
+
+.settings-card h3 svg {
+
+  color:#cfa23b;
+
+  font-size:22px;
+
+}
+
+
+
+/* =========================
+   Hover Effect Cards
+========================= */
+
+
+.settings-card {
+
+  transition:.3s ease;
+
+}
+
+
+
+.settings-card:hover {
+
+  transform:translateY(-3px);
+
+  box-shadow:
+
+  0 15px 35px rgba(0,0,0,.12);
+
+}
+
+
+
+/* =========================
+   Buttons Animation
+========================= */
+
+
+button {
+
+  font-family:inherit;
+
+}
+
+
+
+.save-btn:active {
+
+  transform:scale(.97);
+
+}
+
+
+
+/* =========================
+   Scroll Style
+========================= */
+
+
+.site-settings-container::-webkit-scrollbar {
+
+  width:8px;
+
+}
+
+
+.site-settings-container::-webkit-scrollbar-track {
+
+  background:#eee;
+
+}
+
+
+
+.site-settings-container::-webkit-scrollbar-thumb {
+
+  background:#004d40;
+
+  border-radius:10px;
+
+}
+
+
+
+/* =========================
+   Tablet
+========================= */
+
+
+@media(max-width:900px){
+
+
+.site-settings-container {
+
+  padding:20px;
+
+}
+
+
+.page-header {
+
+  flex-direction:column;
+
+  gap:15px;
+
+  align-items:stretch;
+
+}
+
+
+
+.page-header h2 {
+
+  text-align:center;
+
+}
+
+
+
+.save-btn {
+
+  justify-content:center;
+
+}
+
+
+
+.form-grid {
+
+  grid-template-columns:1fr;
+
+}
+
+
+
+.settings-card {
+
+  padding:20px;
+
+}
+
+
+
+}
+/* =========================
+   RTL Support
+========================= */
+
+[dir="rtl"] .site-settings-container {
+
+  direction:rtl;
+
+}
+
+
+[dir="rtl"] .page-header {
+
+  flex-direction:row-reverse;
+
+}
+
+
+
+[dir="rtl"] .save-btn svg {
+
+  margin-left:8px;
+
+}
+
+
+
+[dir="rtl"] .settings-card h3 svg {
+
+  margin-left:10px;
+
+}
+
+
+
+/* =========================
+   Mobile Design
+========================= */
+
+
+@media(max-width:600px){
+
+
+.site-settings-container {
+
+  padding:15px;
+
+}
+
+
+
+/* Header */
+
+.page-header h2 {
+
+  font-size:22px;
+
+}
+
+
+
+.save-btn {
+
+  width:100%;
+
+  padding:12px;
+
+}
+
+
+
+/* Cards */
+
+
+.settings-card {
+
+  padding:16px;
+
+  border-radius:14px;
+
+}
+
+
+
+.settings-card h3 {
+
+  font-size:17px;
+
+}
+
+
+
+/* Inputs */
+
+
+.form-group label {
+
+  font-size:14px;
+
+}
+
+
+.form-group input,
+.form-group textarea {
+
+
+  font-size:14px;
+
+  padding:11px;
+
+}
+
+
+
+/* Grid */
+
+.form-grid {
+
+  grid-template-columns:1fr;
+
+}
+
+
+
+/* Save Button */
+
+.save-btn {
+
+  font-size:15px;
+
+}
+
+
+
+}
+
+
+
+/* =========================
+   Very Small Screens
+========================= */
+
+
+@media(max-width:380px){
+
+
+.site-settings-container {
+
+  padding:10px;
+
+}
+
+
+.settings-card {
+
+  padding:13px;
+
+}
+
+
+.page-header h2 {
+
+  font-size:20px;
+
+}
+
+
+.form-group input,
+.form-group textarea {
+
+  padding:10px;
+
+}
+
+
+}
+
+
+
+/* =========================
+   Smooth Animation
+========================= */
+
+
+.settings-card,
+.save-btn,
+.form-group input,
+.form-group textarea {
+
+
+  transition:all .25s ease;
+
+
+}
+
+
+
+.form-group input:focus,
+.form-group textarea:focus {
+
+
+  border-color:#cfa23b;
+
+  box-shadow:
+
+  0 0 0 3px rgba(207,162,59,.2);
+
+
+}
+
+
+
+/* =========================
+   Disabled / Loading Future
+========================= */
+
+
+.loading-box::after {
+
+  content:"";
+
+  width:20px;
+
+  height:20px;
+
+  margin-right:10px;
+
+  border-radius:50%;
+
+  border:3px solid #cfa23b;
+
+  border-top-color:transparent;
+
+  animation:spin 1s linear infinite;
+
+
+}
+
+
+
+@keyframes spin {
+
+
+from{
+
+ transform:rotate(0deg);
+
+}
+
+
+to{
+
+ transform:rotate(360deg);
+
+}
+
+
+}

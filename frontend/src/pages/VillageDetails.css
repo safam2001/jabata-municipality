@@ -1,0 +1,704 @@
+/* =====================================
+   Village Details Page
+===================================== */
+
+.village-details-page {
+  min-height: 100vh;
+  background: #f5f7f6;
+  padding: 40px 5%;
+  direction: rtl;
+}
+
+
+/* =====================================
+   Loading
+===================================== */
+
+.village-details-loading {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #004d40;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
+/* =====================================
+   Back Button
+===================================== */
+
+.village-back-btn {
+
+  border: none;
+  background: #004d40;
+  color: white;
+
+  padding: 12px 22px;
+
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  margin-bottom: 25px;
+
+  transition: .3s;
+
+}
+
+
+.village-back-btn:hover {
+
+  background: #00695c;
+
+  transform: translateX(5px);
+
+}
+
+
+
+
+/* =====================================
+   Main Card
+===================================== */
+
+
+.village-details-card {
+
+  background: white;
+
+  border-radius: 25px;
+
+  overflow: hidden;
+
+  box-shadow:
+  0 15px 40px rgba(0,0,0,.1);
+
+}
+
+
+
+
+
+/* =====================================
+   Main Media
+===================================== */
+
+
+.village-main-media {
+
+  width:100%;
+
+  height:430px;
+
+  background:#e8eeee;
+
+  overflow:hidden;
+
+}
+
+
+
+
+.village-main-media img,
+.village-main-media video {
+
+ width:100%;
+ height:100%;
+ object-fit:cover;
+
+}
+
+
+
+
+/* =====================================
+ Document
+===================================== */
+
+
+.document-box {
+
+ height:100%;
+
+ display:flex;
+
+ flex-direction:column;
+
+ justify-content:center;
+
+ align-items:center;
+
+ gap:25px;
+
+ color:#004d40;
+
+ font-size:50px;
+
+}
+
+
+.document-box a {
+
+ background:#004d40;
+
+ color:white;
+
+ padding:12px 25px;
+
+ border-radius:12px;
+
+ font-size:16px;
+
+ text-decoration:none;
+
+}
+
+
+
+.document-box a:hover {
+
+ background:#00695c;
+
+}
+
+
+
+
+
+.no-village-media {
+
+ height:100%;
+
+ display:flex;
+
+ flex-direction:column;
+
+ justify-content:center;
+
+ align-items:center;
+
+ color:#888;
+
+ font-size:20px;
+
+ gap:15px;
+
+}
+
+
+
+.no-village-media svg {
+
+ font-size:60px;
+
+}
+
+
+
+
+
+/* =====================================
+ Content
+===================================== */
+
+
+.village-details-content {
+
+ padding:35px;
+
+}
+
+
+
+.village-details-content h1 {
+
+ margin:0;
+
+ color:#004d40;
+
+ font-size:38px;
+
+ font-weight:900;
+
+}
+
+
+
+.details-divider {
+
+ width:80px;
+
+ height:5px;
+
+ background:#009688;
+
+ border-radius:20px;
+
+ margin:20px 0;
+
+}
+
+
+
+
+
+.details-info {
+
+ display:flex;
+
+ align-items:center;
+
+ gap:12px;
+
+ color:#555;
+
+ font-size:18px;
+
+ margin-bottom:20px;
+
+}
+
+
+
+.details-info svg {
+
+ color:#009688;
+
+}
+
+
+
+
+
+.details-description {
+
+ color:#555;
+
+ font-size:17px;
+
+ line-height:2;
+
+ margin-bottom:30px;
+
+}
+
+
+
+
+/* =====================================
+ Stats
+===================================== */
+
+
+.details-stat-grid {
+
+ display:grid;
+
+ grid-template-columns:
+ repeat(auto-fit,minmax(220px,1fr));
+
+ gap:20px;
+
+}
+
+
+
+.details-stat-card {
+
+ background:#f1f8f7;
+
+ border-radius:18px;
+
+ padding:20px;
+
+ display:flex;
+
+ align-items:center;
+
+ gap:20px;
+
+}
+
+
+
+.details-stat-card svg {
+
+ font-size:35px;
+
+ color:#00796b;
+
+}
+
+
+
+
+.details-stat-card strong {
+
+ display:block;
+
+ font-size:24px;
+
+ color:#004d40;
+
+}
+
+
+
+.details-stat-card span {
+
+ color:#666;
+
+}
+
+
+
+
+
+/* =====================================
+ News Section
+===================================== */
+
+
+.village-news-section {
+
+ margin-top:35px;
+
+ background:white;
+
+ border-radius:25px;
+
+ padding:30px;
+
+ box-shadow:
+ 0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+
+.village-news-section h2 {
+
+ color:#004d40;
+
+ font-size:28px;
+
+ margin-bottom:20px;
+
+}
+
+
+
+.news-placeholder {
+
+ background:#f5f7f6;
+
+ border-radius:15px;
+
+ padding:30px;
+
+ text-align:center;
+
+ color:#777;
+
+ font-size:17px;
+
+}
+
+
+
+
+
+/* =====================================
+ Responsive
+===================================== */
+
+
+@media(max-width:768px){
+
+
+.village-details-page {
+
+ padding:25px 15px;
+
+}
+
+
+
+.village-main-media {
+
+ height:260px;
+
+}
+
+
+
+.village-details-content {
+
+ padding:22px;
+
+}
+
+
+
+.village-details-content h1 {
+
+ font-size:28px;
+
+}
+
+
+
+.details-description {
+
+ font-size:15px;
+
+}
+
+
+
+.details-stat-grid {
+
+ grid-template-columns:1fr;
+
+}
+
+
+
+.village-news-section {
+
+ padding:20px;
+
+}
+
+
+
+}
+
+
+
+@media(max-width:450px){
+
+
+.village-back-btn {
+
+ width:100%;
+
+ justify-content:center;
+
+}
+
+
+
+.village-main-media {
+
+ height:220px;
+
+}
+
+
+
+.village-details-content h1 {
+
+ font-size:24px;
+
+}
+
+
+}
+/* ================================
+   Village News
+================================ */
+
+.village-news-section {
+  width: 100%;
+  margin-top: 40px;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.village-news-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.village-news-header h2 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.village-news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.village-news-card {
+  background: #f8f9f9;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #e5e7e7;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.village-news-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.village-news-card-content {
+  padding: 22px;
+}
+
+.village-news-card-content h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.village-news-card-content p {
+  margin: 15px 0;
+  color: #555;
+  line-height: 1.8;
+
+  display: -webkit-box;
+ 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.village-news-date {
+  color: #777;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.village-news-category {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 20px;
+  font-size: 12px;
+  background: #eef3f2;
+  color: #004d40;
+}
+
+.village-news-read-btn {
+  border: none;
+  background: #004d40;
+  color: #fff;
+  padding: 10px 17px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.village-news-read-btn:hover {
+  background: #00382f;
+}
+
+.news-placeholder {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  color: #777;
+  text-align: center;
+  background: #f8f9f9;
+  border-radius: 14px;
+  padding: 30px;
+}
+
+.news-placeholder svg {
+  font-size: 35px;
+}
+
+
+/* ================================
+   Responsive
+================================ */
+
+@media (max-width: 992px) {
+
+  .village-news-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .village-news-section {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 14px;
+  }
+
+  .village-news-header h2 {
+    font-size: 22px;
+  }
+
+  .village-news-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .village-news-card-content {
+    padding: 18px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .village-news-section {
+    padding: 15px;
+  }
+
+  .village-news-header h2 {
+    font-size: 20px;
+  }
+
+  .village-news-card-content h3 {
+    font-size: 18px;
+  }
+
+  .village-news-card-content p {
+    font-size: 14px;
+  }
+
+  .village-news-read-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+}

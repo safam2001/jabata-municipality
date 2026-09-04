@@ -1,0 +1,405 @@
+.dashboard-container {
+  padding: 25px;
+  background: #f5f7f9;
+  min-height: 100vh;
+}
+
+
+/* ==========================
+   Header
+========================== */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+
+.dashboard-header h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #004d40;
+}
+
+
+.dashboard-header p {
+  margin-top: 8px;
+  color: #777;
+  font-size: 15px;
+}
+
+
+/* ==========================
+   Stats Grid
+========================== */
+
+.stats-grid {
+
+  display: grid;
+
+  grid-template-columns:
+  repeat(auto-fit, minmax(230px, 1fr));
+
+  gap: 20px;
+
+}
+
+
+/* ==========================
+   Stat Card
+========================== */
+
+.stat-card {
+
+  background: white;
+
+  border-radius: 15px;
+
+  padding: 20px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  box-shadow:
+  0 4px 15px rgba(0,0,0,0.08);
+
+  transition: 0.3s;
+
+}
+
+
+.stat-card:hover {
+
+  transform: translateY(-5px);
+
+}
+
+
+/* ==========================
+   Icons
+========================== */
+
+.stat-icon {
+
+  width: 60px;
+
+  height: 60px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 25px;
+
+  color: white;
+
+}
+
+
+.stat-icon.citizens {
+  background: #1976d2;
+}
+
+
+.stat-icon.martyrs {
+  background: #9c27b0;
+}
+
+
+.stat-icon.special {
+  background: #ff9800;
+}
+
+
+.stat-icon.news {
+  background: #009688;
+}
+
+
+.stat-icon.media {
+  background: #e91e63;
+}
+
+
+.stat-icon.comments {
+  background: #795548;
+}
+
+
+.stat-icon.services {
+  background: #3f51b5;
+}
+
+
+.stat-icon.service-types {
+  background: #607d8b;
+}
+
+
+.stat-icon.villages {
+  background: #4caf50;
+}
+
+
+.stat-icon.drafts {
+  background: #f44336;
+}
+
+
+/* ==========================
+   Numbers
+========================== */
+
+.stat-info h3 {
+
+  margin: 0;
+
+  font-size: 28px;
+
+  color: #333;
+
+}
+
+
+.stat-info span {
+
+  color: #777;
+
+  font-size: 14px;
+
+}
+/* ==========================
+   Latest News Section
+========================== */
+
+.latest-section {
+
+  margin-top: 30px;
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 15px;
+
+  box-shadow:
+  0 4px 15px rgba(0,0,0,0.08);
+
+}
+
+
+.section-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 20px;
+
+}
+
+
+.section-header h3 {
+
+  margin: 0;
+
+  color: #004d40;
+
+  font-size: 22px;
+
+}
+
+
+/* ==========================
+   News List
+========================== */
+
+.news-list {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+
+}
+
+
+.news-item {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 15px;
+
+  background: #f8f9fa;
+
+  border-radius: 10px;
+
+  border-right: 4px solid #004d40;
+
+}
+
+
+.news-item h4 {
+
+  margin: 0 0 8px;
+
+  font-size: 17px;
+
+  color: #333;
+
+}
+
+
+.news-item p {
+
+  margin: 0;
+
+  color: #666;
+
+  font-size: 14px;
+
+}
+
+
+.news-item span {
+
+  color: #888;
+
+  font-size: 13px;
+
+}
+
+
+/* ==========================
+   Empty & Loading
+========================== */
+
+.empty-box,
+.loading-box {
+
+  padding: 30px;
+
+  text-align: center;
+
+  background: white;
+
+  border-radius: 12px;
+
+  color: #777;
+
+  font-size: 16px;
+
+}
+
+
+
+/* ==========================
+   Responsive
+========================== */
+
+
+@media (max-width: 768px) {
+
+
+  .dashboard-container {
+
+    padding: 15px;
+
+  }
+
+
+  .dashboard-header h2 {
+
+    font-size: 22px;
+
+  }
+
+
+  .stats-grid {
+
+    grid-template-columns:
+    repeat(1, 1fr);
+
+  }
+
+
+  .stat-card {
+
+    padding: 15px;
+
+  }
+
+
+  .stat-icon {
+
+    width: 50px;
+
+    height: 50px;
+
+    font-size: 20px;
+
+  }
+
+
+  .stat-info h3 {
+
+    font-size: 24px;
+
+  }
+
+
+  .news-item {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 10px;
+
+  }
+
+
+}
+
+
+@media (max-width: 480px) {
+
+
+  .latest-section {
+
+    padding: 15px;
+
+  }
+
+
+  .section-header h3 {
+
+    font-size: 18px;
+
+  }
+
+
+  .news-item h4 {
+
+    font-size: 15px;
+
+  }
+
+}

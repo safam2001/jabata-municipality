@@ -1,0 +1,573 @@
+/* ===========================
+   SERVICE DIRECTORY
+=========================== */
+
+.service-directory-page{
+
+max-width:1400px;
+
+margin:auto;
+
+padding:40px 25px 80px;
+
+}
+
+.sd-header{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-bottom:45px;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+.sd-title-box h2{
+
+font-size:34px;
+
+font-weight:700;
+
+color:#004d40;
+
+margin:0;
+
+}
+
+.sd-title-box p{
+
+margin-top:8px;
+
+color:#6b7280;
+
+font-size:15px;
+
+}
+
+.sd-back-btn{
+
+display:flex;
+
+align-items:center;
+
+gap:8px;
+
+background:#004d40;
+
+color:#fff;
+
+border:none;
+
+padding:12px 20px;
+
+border-radius:12px;
+
+cursor:pointer;
+
+font-size:15px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.sd-back-btn:hover{
+
+background:#00695c;
+
+transform:translateY(-2px);
+
+}
+
+.sd-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(360px,1fr));
+
+gap:28px;
+
+align-items:stretch;
+
+}
+
+.sd-card{
+
+background:#fff;
+
+border-radius:22px;
+
+padding:24px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:20px;
+
+border:1px solid #edf2f7;
+
+box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+transition:.35s;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.sd-card::before{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+top:0;
+
+width:6px;
+
+height:100%;
+
+background:linear-gradient(#009688,#004d40);
+
+transition:.3s;
+
+}
+
+.sd-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 18px 40px rgba(0,0,0,.12);
+
+}
+
+.sd-card:hover::before{
+
+width:10px;
+
+}
+.sd-left{
+
+display:flex;
+
+align-items:center;
+
+gap:18px;
+
+flex:1;
+
+}
+
+.sd-icon{
+
+width:70px;
+
+height:70px;
+
+border-radius:18px;
+
+background:linear-gradient(135deg,#009688,#004d40);
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+color:#fff;
+
+font-size:28px;
+
+flex-shrink:0;
+
+transition:.35s;
+
+}
+
+.sd-card:hover .sd-icon{
+
+transform:rotate(-8deg) scale(1.08);
+
+}
+
+.sd-info{
+
+flex:1;
+
+}
+
+.sd-info h3{
+
+margin:0;
+
+font-size:21px;
+
+font-weight:700;
+
+color:#1f2937;
+
+}
+
+.sd-info p{
+
+margin-top:8px;
+
+font-size:14px;
+
+line-height:1.7;
+
+color:#6b7280;
+
+}
+/* 
+.sd-arrow{
+
+width:56px;
+
+height:56px;
+
+border-radius:50%;
+
+background:#e8f5f4;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+color:#004d40;
+
+cursor:pointer;
+
+transition:.35s;
+
+flex-shrink:0;
+
+}
+
+.sd-arrow svg{
+
+font-size:18px;
+
+}
+
+.sd-arrow:hover{
+
+background:#004d40;
+
+color:#fff;
+
+transform:scale(1.12);
+
+} */
+
+/* .sd-empty{
+
+background:#fff;
+
+padding:60px 30px;
+
+border-radius:20px;
+
+text-align:center;
+
+border:1px dashed #cfd8dc;
+
+color:#6b7280;
+
+font-size:18px;
+
+font-weight:600;
+
+} */
+/* ===========================
+   Tablet
+=========================== */
+
+@media(max-width:992px){
+
+.service-directory-page{
+
+padding:30px 20px 60px;
+
+}
+
+.sd-header{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+}
+
+.sd-title-box h2{
+
+font-size:30px;
+
+}
+
+.sd-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+gap:22px;
+
+}
+
+.sd-card{
+
+padding:20px;
+
+}
+
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media(max-width:768px){
+
+.service-directory-page{
+
+padding:25px 15px 45px;
+
+}
+
+.sd-title-box h2{
+
+font-size:25px;
+
+}
+
+.sd-title-box p{
+
+font-size:14px;
+
+}
+
+.sd-grid{
+
+grid-template-columns:1fr;
+
+gap:18px;
+
+}
+
+.sd-card{
+
+padding:18px;
+
+border-radius:18px;
+
+}
+
+.sd-left{
+
+gap:14px;
+
+}
+
+.sd-icon{
+
+width:58px;
+
+height:58px;
+
+font-size:24px;
+
+}
+
+.sd-info h3{
+
+font-size:18px;
+
+}
+
+.sd-info p{
+
+font-size:13px;
+
+}
+
+.sd-arrow-btn{
+
+width:80px;
+
+height:50px;
+
+
+
+}
+
+@media(max-width:768px){
+
+.sd-arrow-btn{
+
+width:46px;
+height:46px;
+
+}
+
+.sd-arrow-btn svg{
+
+font-size:16px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.sd-arrow-btn{
+
+width:42px;
+height:42px;
+
+}
+
+.sd-arrow-btn svg{
+
+font-size:15px;
+
+}
+
+}
+.sd-back-btn{
+margin-top: 20px;
+width:140px;
+height: 40px;
+padding: 10px;
+justify-content:center;
+
+}
+
+}
+
+/* ===========================
+   Small Phones
+=========================== */
+
+@media(max-width:480px){
+
+.sd-card{
+
+padding:16px;
+
+}
+
+.sd-icon{
+
+width:52px;
+
+height:52px;
+
+font-size:22px;
+
+}
+
+.sd-info h3{
+
+font-size:16px;
+
+}
+
+.sd-info p{
+
+display:none;
+
+}
+
+.sd-arrow{
+
+width:42px;
+
+height:42px;
+
+}
+
+.sd-title-box h2{
+
+font-size:22px;
+
+}
+
+}
+.sd-arrow-btn{
+
+width:52px;
+height:52px;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+border:none;
+outline:none;
+
+border-radius:50%;
+
+background:linear-gradient(135deg,#009688,#004d40);
+
+color:#fff;
+
+cursor:pointer;
+
+transition:.35s ease;
+
+box-shadow:0 8px 20px rgba(0,77,64,.25);
+
+flex-shrink:0;
+
+}
+
+.sd-arrow-btn svg{
+
+font-size:18px;
+
+transition:.35s ease;
+
+}
+
+.sd-arrow-btn:hover{
+
+transform:translateY(-3px) scale(1.08);
+
+background:linear-gradient(135deg,#00bfa5,#00695c);
+
+box-shadow:0 12px 28px rgba(0,77,64,.35);
+
+}
+
+.sd-arrow-btn:hover svg{
+
+transform:translateX(4px);
+
+}
+
+.sd-arrow-btn:active{
+
+transform:scale(.96);
+
+}
+.sd-contact-btn{
+  width: 150px;
+  height: 50px;
+  color: #fff;
+background-color: #004d40;
+border-radius: 6px;
+}

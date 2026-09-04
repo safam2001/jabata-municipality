@@ -1,0 +1,534 @@
+/* =====================================================
+   Admin Request Details
+===================================================== */
+
+.admin-request-details {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =====================================================
+   Header
+===================================================== */
+
+.admin-request-details .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.admin-request-details .header h2 {
+  margin: 0;
+  color: #004d40;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* =====================================================
+   Back Button
+===================================================== */
+
+.back-btn-req {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100px;
+  height: 40px;
+
+  padding: 0 16px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #004d40;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.back-btn-req:hover {
+  background: #00695c;
+  transform: translateY(-1px);
+}
+
+.back-btn-req:active {
+  transform: translateY(0);
+}
+
+/* =====================================================
+   Details Card
+===================================================== */
+
+.admin-request-details .details-card {
+  width: 100%;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e9e7;
+  border-radius: 14px;
+
+  padding: 28px;
+
+  box-sizing: border-box;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+/* =====================================================
+   Details Rows
+===================================================== */
+
+.admin-request-details .row {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+
+  align-items: center;
+
+  min-height: 55px;
+
+  padding: 13px 0;
+
+  border-bottom: 1px solid #eeeeee;
+}
+
+.admin-request-details .row:last-child {
+  border-bottom: none;
+}
+
+.admin-request-details .row > span {
+  color: #004d40;
+
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.admin-request-details .row > p {
+  margin: 0;
+
+  color: #333333;
+
+  font-size: 15px;
+  line-height: 1.7;
+
+  word-break: break-word;
+}
+
+/* =====================================================
+   Admin Notes Section
+===================================================== */
+
+.admin-notes-section {
+  margin-top: 28px;
+  padding: 22px;
+
+  background: #f8faf9;
+
+  border: 1px solid #e1e7e5;
+  border-radius: 12px;
+
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.admin-notes-header {
+  margin-bottom: 12px;
+}
+
+.admin-notes-header span {
+  display: block;
+
+  color: #004d40;
+
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* Textarea */
+
+.admin-notes-section textarea {
+  display: block;
+
+  width: 100%;
+  min-height: 170px;
+
+  padding: 14px 16px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #d2dbd8;
+  border-radius: 10px;
+
+  background: #ffffff;
+  color: #333333;
+
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.8;
+
+  resize: vertical;
+
+  outline: none;
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.admin-notes-section textarea:hover {
+  border-color: #b9c7c3;
+}
+
+.admin-notes-section textarea:focus {
+  border-color: #004d40;
+
+  box-shadow:
+    0 0 0 3px rgba(0, 77, 64, 0.09);
+}
+
+.admin-notes-section textarea::placeholder {
+  color: #999999;
+}
+
+/* Save Button */
+
+.save-admin-notes-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 130px;
+
+  margin-top: 13px;
+  padding: 10px 22px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #004d40;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.25s ease,
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.save-admin-notes-btn:hover {
+  background: #00695c;
+  transform: translateY(-1px);
+}
+
+.save-admin-notes-btn:active {
+  transform: translateY(0);
+}
+
+.save-admin-notes-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* =====================================================
+   Documents
+===================================================== */
+
+.admin-request-details .documents {
+  margin-top: 25px;
+  align-items: flex-start;
+}
+
+.admin-request-details .documents-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  width: 100%;
+}
+
+.admin-request-details .document-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 150px;
+
+  padding: 10px;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e7e5;
+  border-radius: 10px;
+
+  box-sizing: border-box;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.admin-request-details .document-card:hover {
+  transform: translateY(-2px);
+
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.08);
+}
+
+.admin-request-details .document-image {
+  width: 100%;
+  height: 110px;
+
+  object-fit: cover;
+
+  border-radius: 7px;
+}
+
+.admin-request-details .document-card a {
+  margin-top: 9px;
+
+  color: #004d40;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  text-decoration: none;
+}
+
+.admin-request-details .document-card a:hover {
+  color: #00695c;
+  text-decoration: underline;
+}
+
+/* =====================================================
+   Loading / Not Found
+===================================================== */
+
+.admin-request-details > h3 {
+  text-align: center;
+
+  margin: 0;
+  padding: 50px 20px;
+
+  color: #004d40;
+
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* =====================================================
+   Tablet
+===================================================== */
+
+@media (max-width: 768px) {
+
+  .admin-request-details {
+    padding: 20px;
+  }
+
+  .admin-request-details .header {
+    margin-bottom: 20px;
+  }
+
+  .admin-request-details .header h2 {
+    font-size: 23px;
+  }
+
+  .admin-request-details .details-card {
+    padding: 22px;
+    border-radius: 12px;
+  }
+
+  .admin-request-details .row {
+    grid-template-columns: 160px minmax(0, 1fr);
+
+    min-height: 50px;
+
+    padding: 11px 0;
+  }
+
+  .admin-request-details .row > span,
+  .admin-request-details .row > p {
+    font-size: 14px;
+  }
+
+  .admin-notes-section {
+    padding: 18px;
+    margin-top: 22px;
+  }
+
+  .admin-notes-section textarea {
+    min-height: 150px;
+    font-size: 14px;
+  }
+
+  .admin-request-details .document-card {
+    width: 135px;
+  }
+
+  .admin-request-details .document-image {
+    height: 100px;
+  }
+}
+
+/* =====================================================
+   Mobile
+===================================================== */
+
+@media (max-width: 600px) {
+
+  .admin-request-details {
+    padding: 15px;
+  }
+
+  .admin-request-details .header {
+    flex-direction: column;
+    align-items: stretch;
+
+    gap: 12px;
+  }
+
+  .admin-request-details .header h2 {
+    font-size: 21px;
+  }
+
+  .back-btn-req {
+    width: 100%;
+    height: 40px;
+  }
+
+  .admin-request-details .details-card {
+    padding: 16px;
+
+    border-radius: 11px;
+  }
+
+  /* Details become vertical */
+
+  .admin-request-details .row {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 6px;
+
+    padding: 14px 0;
+  }
+
+  .admin-request-details .row > span {
+    font-size: 13px;
+  }
+
+  .admin-request-details .row > p {
+    width: 100%;
+
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  /* Admin Notes */
+
+  .admin-notes-section {
+    margin-top: 20px;
+    padding: 15px;
+
+    border-radius: 10px;
+  }
+
+  .admin-notes-header {
+    margin-bottom: 10px;
+  }
+
+  .admin-notes-header span {
+    font-size: 15px;
+  }
+
+  .admin-notes-section textarea {
+    min-height: 160px;
+
+    padding: 12px;
+
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .save-admin-notes-btn {
+    width: 100%;
+
+    margin-top: 12px;
+
+    padding: 11px;
+  }
+
+  /* Documents */
+
+  .admin-request-details .documents-list {
+    gap: 10px;
+  }
+
+  .admin-request-details .document-card {
+    width: calc(50% - 5px);
+  }
+
+  .admin-request-details .document-image {
+    height: 100px;
+  }
+}
+
+/* =====================================================
+   Small Mobile
+===================================================== */
+
+@media (max-width: 400px) {
+
+  .admin-request-details {
+    padding: 10px;
+  }
+
+  .admin-request-details .details-card {
+    padding: 13px;
+  }
+
+  .admin-request-details .header h2 {
+    font-size: 19px;
+  }
+
+  .admin-request-details .row > span {
+    font-size: 12px;
+  }
+
+  .admin-request-details .row > p {
+    font-size: 13px;
+  }
+
+  .admin-notes-section {
+    padding: 13px;
+  }
+
+  .admin-notes-section textarea {
+    min-height: 140px;
+  }
+
+  .admin-request-details .document-card {
+    width: 100%;
+  }
+
+  .admin-request-details .document-image {
+    height: 140px;
+  }
+}

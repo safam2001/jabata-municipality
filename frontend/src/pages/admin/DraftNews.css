@@ -1,0 +1,218 @@
+.draft-news-container{
+    padding:25px;
+    background:#f5f7fb;
+    min-height:100vh;
+}
+
+/* ================= HEADER ================= */
+
+.page-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.page-header h2{
+    margin:0;
+    color:#1f2937;
+    font-size:30px;
+    font-weight:700;
+}
+
+.page-header p{
+    margin:0;
+    color:#6b7280;
+    font-weight:600;
+}
+
+/* ================= GRID ================= */
+
+.draft-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:20px;
+}
+
+/* ================= CARD ================= */
+
+.draft-card{
+    background:#fff;
+    border-radius:16px;
+    padding:22px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.draft-card:hover{
+    transform:translateY(-4px);
+}
+
+.draft-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:15px;
+    margin-bottom:15px;
+}
+
+.draft-top h3{
+    margin:0;
+    font-size:22px;
+    color:#1f2937;
+    word-break:break-word;
+}
+
+.draft-badge{
+    background:#ffc107;
+    color:#222;
+    padding:6px 14px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:bold;
+    white-space:nowrap;
+}
+
+.draft-card p{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:18px;
+    word-break:break-word;
+}
+
+/* ================= INFO ================= */
+
+.draft-info{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-bottom:20px;
+    color:#666;
+    font-size:14px;
+}
+
+.draft-info span{
+    background:#f8f9fa;
+    padding:8px 14px;
+    border-radius:25px;
+}
+
+/* ================= BUTTONS ================= */
+
+.draft-actions{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.draft-actions button{
+    flex:1;
+    min-width:120px;
+    border:none;
+    border-radius:8px;
+    padding:10px;
+    color:#fff;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.edit-btn{
+    background:#0d6efd;
+}
+
+.edit-btn:hover{
+    background:#0b5ed7;
+}
+
+.publish-btn{
+    background:#198754;
+}
+
+.publish-btn:hover{
+    background:#157347;
+}
+
+.delete-btn{
+    background:#dc3545;
+}
+
+.delete-btn:hover{
+    background:#bb2d3b;
+}
+
+/* ================= EMPTY ================= */
+
+.loading-box,
+.empty-box{
+    background:#fff;
+    padding:70px;
+    border-radius:15px;
+    text-align:center;
+    color:#666;
+    font-size:18px;
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:768px){
+
+    .draft-news-container{
+        padding:15px;
+    }
+
+    .page-header{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .draft-grid{
+        grid-template-columns:1fr;
+    }
+
+    .draft-top{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .draft-badge{
+        align-self:flex-start;
+    }
+
+    .draft-actions{
+        flex-direction:column;
+    }
+
+    .draft-actions button{
+        width:100%;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .draft-card{
+        padding:16px;
+    }
+
+    .page-header h2{
+        font-size:24px;
+    }
+
+    .draft-top h3{
+        font-size:18px;
+    }
+
+    .draft-info{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .draft-info span{
+        width:fit-content;
+    }
+
+}

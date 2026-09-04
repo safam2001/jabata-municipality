@@ -1,0 +1,988 @@
+{
+  
+
+
+  "municipalityName": "Jubata Al-Khashab Municipality",
+  "municipalityDescription": "Providing municipal services efficiently and transparently for all citizens.",
+  
+  "quickLinks": "Quick Links",
+
+  "contact": "Contact",
+
+
+
+
+  "defaultWorkingHours": "Sunday - Thursday, 08:00 AM - 02:00 PM",
+
+  "allRightsReserved": "All Rights Reserved",
+  "developedBy": "Developed by",
+
+
+  "contactPage": "Contact Us",
+
+
+  "phoneNumber": "Phone Number",
+  "workingHoursLabel": "Working Hours",
+
+
+  "officialWebsite": "Official Website of Jubata Al-Khashab Municipality",
+ 
+  "contactInfo": "Contact Information",
+ 
+
+
+
+
+"dashboard": "Dashboard",
+"citizens": "Citizens",
+"martyrs": "Martyrs",
+"services": "Services",
+"notifications": "Notifications",
+"search": "Search...",
+"jibathaAlKhashabMunicipality": "Jibatha Al-Khashab Municipality",
+"municipality": "Jibatha Al-Khashab Municipality",
+"home": "Home",
+"News": "News",
+"AboutUs": "About Us",
+"ContactUs": "Contact Us",
+"Media": "Media",
+"Login": "Login",
+"Logout": "Logout",
+"Profile": "Profile",
+
+"manageCitizens": "Manage Citizens",
+"manageMartyrs": "Manage Martyrs",
+"manageServices": "Manage Services",
+"registerData": "Register Data",
+"welcome": "Welcome to the Municipality Website",
+"villages": "Villages",
+"specialNeeds": "Special Needs",
+
+" A leading municipality in services and quality of life": "A leading municipality in services and quality of life",
+
+"citizen_services": "Citizen Services",
+"martyrs_services": "Martyrs Services",
+"village_services": "Village Services",
+"town_services": "Town Services",
+"electronic_services": "Electronic Services",
+"Special Needs": "Special Needs",
+
+"adminNews": "News Management",
+"backToDashboard": "Back to Dashboard",
+"newsList": "News List",
+"createNews": "Create New News",
+"mediaManager": "Media Manager",
+"settings": "Settings",
+
+"manageVillages": "Manage Villages",
+"manageTowns": "Manage Towns",
+"manageComments": "Manage Comments",
+"manageNotifications": "Manage Notifications",
+"mediaSettings": "Media Settings",
+"publishingSettings": "Publishing Settings",
+
+"manageMediaDescription": "Manage all uploaded images, videos and files",
+"Upload Media": "Upload Media",
+"Upload": "Upload",
+"Uploading": "Uploading...",
+"Upload Failed": "Upload Failed",
+"Total Files": "Total Files",
+"Images": "Images",
+"Videos": "Videos",
+"Documents": "Documents",
+"All Types": "All Types",
+
+"type": "Type",
+"size": "Size",
+"village": "Village",
+"uploadedBy": "Uploaded By",
+"date": "Date",
+"uploadDate": "Upload Date",
+"noDescription": "No Description Available",
+"editMedia": "Edit Media",
+"active": "Active",
+"inactive": "Inactive",
+"status": "Status",
+"files": "Files",
+"selectFiles": "Please select at least one file",
+"SelectNews": "Select News",
+"selectNews": "Select News",
+"selectVillage": "Select Village",
+"SaveFailed": "Failed to Save Changes",
+"loading": "Loading...",
+"Loading...": "Loading...",
+"title": "Title",
+"description": "Description",
+"save": "Save",
+"saveChanges": "Save Changes",
+"cancel": "Cancel",
+"delete": "Delete",
+"edit": "Edit",
+
+"overview": "Overview",
+"statistics": "Statistics",
+
+"totalCitizens": "Total Citizens",
+"totalMartyrs": "Total Martyrs",
+"totalNews": "Total News",
+"mediaFiles": "Media Files",
+"totalComments": "Total Comments",
+"totalServices": "Total Services",
+"serviceTypes": "Service Types",
+"draftNews": "Draft News",
+
+"latestNews": "Latest News",
+"latestRequests": "Latest Requests",
+"viewAll": "View All",
+"noData": "No Data Found",
+
+"adminProfile": "Admin Profile",
+"manageAccount": "Manage Your Account",
+"personalInformation": "Personal Information",
+"firstName": "First Name",
+"lastName": "Last Name",
+"email": "Email",
+"role": "Role",
+
+"changePassword": "Change Password",
+"currentPassword": "Current Password",
+"newPassword": "New Password",
+"confirmPassword": "Confirm Password",
+
+"profileUpdated": "Profile Updated Successfully",
+"passwordChanged": "Password Changed Successfully",
+"passwordNotMatch": "Passwords Do Not Match",
+
+"siteSettings": "Site Settings",
+"municipalityInformation": "Municipality Information",
+"siteName": "Municipality Name",
+"logo": "Logo",
+"logoPath": "Logo Path",
+
+"contactInformation": "Contact Information",
+"phone": "Phone Number",
+"whatsapp": "WhatsApp",
+"address": "Address",
+"workingHours": "Working Hours",
+"workingHoursExample": "Example: Sunday - Thursday 08:00 AM - 02:00 PM",
+
+"socialMedia": "Social Media Links",
+
+"footerSettings": "Footer Settings",
+"developerName": "Developer Name",
+"developerLink": "Developer Link",
+
+"mapSettings": "Map Settings",
+"mapOptional": "Adding a map is optional and can be left empty",
+"mapUrl": "Google Maps URL",
+"latitude": "Latitude",
+"longitude": "Longitude",
+"mapImage": "Map Image",
+"mapImagePath": "Map Image Path",
+
+"settingsSaved": "Settings Saved Successfully",
+
+"requests": "Requests",
+"manageRequests": "Manage Requests",
+"Manage Requests": "Manage Requests",
+
+"pending": "Pending",
+"approved": "Approved",
+"rejected": "Rejected",
+"Pending": "Pending",
+"Approved": "Approved",
+"Rejected": "Rejected",
+
+"approve": "Approve",
+"reject": "Reject",
+"details": "Details",
+"update": "Update",
+"Update": "Update",
+"actions": "Actions",
+"Actions": "Actions",
+
+"fullName": "Full Name",
+"Full Name": "Full Name",
+"nationalID": "National ID",
+"National ID": "National ID",
+"birthDate": "Birth Date",
+"Birth Date": "Birth Date",
+"service": "Service",
+"Service": "Service",
+"serviceType": "Service Type",
+"service Type": "Service Type",
+"adminNotes": "Admin Notes",
+"Admin Notes": "Admin Notes",
+"createdAt": "Created At",
+
+"Citizens": "Citizens",
+"Address": "Address",
+"Phone": "Phone",
+
+"Are you sure?": "Are you sure?",
+
+"+ addService": "Add Service",
+"addService": "Add Service",
+"Add Service": "Add Service",
+"No Services Found": "No Services Found",
+"Edit Service": "Edit Service",
+"editService": "Edit Service",
+"deleteService": "Delete Service",
+"Service Title": "Service Title",
+"serviceDescription": "Service Description",
+
+"Manage Service Types": "Manage Service Types",
+"manageServiceTypes": "Manage Service Types",
+"manageServicesTypes": "Manage Service Types",
+"+ Add Service Type": "Add Service Type",
+"addServiceType": "Add Service Type",
+"Edit Service Type": "Edit Service Type",
+"Add Service Type": "Add Service Type",
+"No Service Types Found": "No Service Types Found",
+"Select Service": "Select Service",
+"Requirements": "Requirements",
+"requirements": "Requirements",
+"Fee": "Fee",
+"fee": "Fee",
+"Request": "Request",
+"Yes": "Yes",
+"No": "No",
+"Show Details": "Show Details",
+"Submit Request": "Submit Request",
+"Has Request Form": "Has Request Form",
+
+"Person Type": "Person Type",
+"General": "General",
+"Citizen": "Citizen",
+"Martyr": "Martyr",
+
+
+"Request Details": "Request Details",
+"back": "Back",
+"notes": "Notes",
+"documents": "Documents",
+"Open": "Open",
+"nodocuments": "No Documents Found",
+"Request not found": "Request Not Found",
+"Citizen Request Form": "Citizen Request Form",
+"Your request has been submitted successfully.": "Your request has been submitted successfully.",
+"Error submitting request.": "Error submitting request.",
+"My Requests": "My Requests",
+"Submitted At": "Submitted At",
+"Submitting...": "Submitting...",
+"selectServiceType": "Select Service Type",
+"Select Service Type": "Select Service Type",
+
+"publishType": "Publish Type",
+"public": "Public",
+"private": "Private",
+"published": "Published",
+"draft": "Draft",
+"archived": "Archived",
+
+"searchNews": "Search News",
+"newest": "Newest",
+"oldest": "Oldest",
+"general": "General",
+"views": "Views",
+"all": "All",
+"news": "News",
+"town": "Town",
+"publishing": "Publishing",
+"area": "Area",
+"totalTowns": "Total Towns",
+"searchTown": "Search Town",
+"population": "Population",
+
+"manageMedia": "Manage Media",
+"addPerson": "Add Person",
+"manageNews": "Manage News",
+"editNews": "Edit News",
+"deleteNews": "Delete News",
+"newsTitle": "News Title",
+"content": "Content",
+
+"admin": "Admin",
+"Admin": "Admin",
+"logout": "Logout",
+
+"validation": {
+"fullNameRequired": "Full name is required",
+"nationalIdRequired": "National ID is required",
+"addressRequired": "Address is required",
+"fullNameMinLength": "Full name must be more than 5 characters",
+"invalidFullName": "Please enter your full name correctly",
+"invalidNationalId": "Invalid national ID",
+"addressMinLength": "Address must be more than 5 characters",
+"invalidAddress": "Address is too short",
+"invalidPhone": "Invalid phone number",
+"phoneRequired": "Please enter your phone number",
+"birthDateRequired": "Please select the birth date",
+"birthDateFuture": "Birth date cannot be in the future",
+"birthDateTooOld": "Birth date is invalid",
+"deathDateRequired": "Please select the death date",
+"deathBeforeBirth": "Death date must be after birth date",
+"deathDateFuture": "Death date cannot be in the future",
+"disabilityTypeRequired": "Please enter the disability type",
+"notesTooLong": "Notes must not exceed 1000 characters",
+"tooManyFiles": "Maximum 5 files are allowed",
+"invalidFileType": "This file type is not allowed",
+"fileTooLarge": "File size must not exceed 10 MB"
+},
+
+"contactUs": "Contact Us",
+"contactMunicipalityDescription": "We are here to help you. Contact Jibatha Al-Khashab Municipality.",
+"sendUsAMessage": "Send Us a Message",
+"sendMessageDescription": "Send your message to the municipality and we will review it and get back to you as soon as possible.",
+
+"name": "Name",
+"subject": "Subject",
+"message": "Message",
+
+"enterYourName": "Enter your name",
+"enterYourEmail": "Enter your email",
+"enterYourPhone": "Enter your phone number",
+"enterMessageSubject": "Enter message subject",
+"writeYourMessage": "Write your message here...",
+
+"sendMessage": "Send Message",
+"sending": "Sending...",
+"messageSentSuccessfully": "Message sent successfully.",
+"failedToSendMessage": "Failed to send message.",
+
+"ourLocation": "Our Location",
+"municipalityLocation": "Municipality Location",
+
+"contactMessages": "Contact Messages",
+"contactMessagesDescription": "Manage and review messages sent from the Contact Us page.",
+"contactMessagesFetchError": "Failed to fetch contact messages.",
+"contactStatusUpdateError": "Failed to update contact status.",
+"contactDeleteError": "Failed to delete contact message.",
+"deleteContactConfirm": "Are you sure you want to delete this contact message?",
+
+"noContactMessages": "No Contact Messages",
+"noContactMessagesDescription": "No messages have been sent from the Contact Us page yet.",
+"noContactSearchResults": "No matching results found.",
+"changeSearchOrFilter": "Try changing your search or filter.",
+"clearFilters": "Clear Filters",
+
+"loadingContactMessages": "Loading contact messages...",
+"refresh": "Refresh",
+"retry": "Retry",
+
+"viewMessage": "View Message",
+"deleteMessage": "Delete Message",
+
+"messageDetails": "Message Details",
+"contactMessageDetails": "Contact Message Details",
+"messageNumber": "Message Number",
+
+"sender": "Sender",
+"senderInformation": "Sender Information",
+"messageContent": "Message Content",
+"messageStatus": "Message Status",
+"sentDate": "Sent Date",
+
+"new": "New",
+"read": "Read",
+"replied": "Replied",
+
+"contactStatusNew": "New",
+"contactStatusRead": "Read",
+"contactStatusReplied": "Replied",
+
+"totalContactMessages": "Total Messages",
+"newContactMessages": "New Messages",
+"readContactMessages": "Read Messages",
+"repliedContactMessages": "Replied Messages",
+
+"allContactMessages": "All Contact Messages",
+"searchContactMessages": "Search Contact Messages",
+"searchContactMessage": "Search Contact Message",
+"showingContactMessages": "Showing Contact Messages",
+"showingContactMessage": "Showing Contact Message",
+"of": "of",
+
+"notAvailable": "Not Available",
+"noSubject": "No Subject",
+
+"close": "Close",
+"deleting": "Deleting...",
+"ContactMessage":"Contact Message",
+
+  "Manage the municipality information displayed on the About Us page": "Manage the municipality information displayed on the About Us page",
+
+  "Municipality Information": "Municipality Information",
+  "Basic information about the municipality": "Basic information about the municipality",
+
+  "Page Title": "Page Title",
+  "Subtitle": "Subtitle",
+  "Display Order": "Display Order",
+
+  "About Municipality": "About Municipality",
+  "Main information about the municipality": "Main information about the municipality",
+  "Description": "Description",
+
+  "History": "History",
+  "Historical information about the municipality": "Historical information about the municipality",
+  "Show History": "Show History",
+  "Display history on the public page": "Display history on the public page",
+  "Show history": "Show history",
+
+  "Vision, Mission & Values": "Vision, Mission & Values",
+  "Define municipality vision, mission and values": "Define municipality vision, mission and values",
+
+  "Vision": "Vision",
+  "Display vision on the public page": "Display vision on the public page",
+  "Show vision": "Show vision",
+
+  "Mission": "Mission",
+  "Display mission on the public page": "Display mission on the public page",
+  "Show mission": "Show mission",
+
+  "Values": "Values",
+  "Display values on the public page": "Display values on the public page",
+  "Show values": "Show values",
+
+  "Location": "Location",
+  "Municipality location information": "Municipality location information",
+
+  "Latitude": "Latitude",
+  "Longitude": "Longitude",
+
+  "Contact Information": "Contact Information",
+  "Contact details displayed to visitors": "Contact details displayed to visitors",
+
+  "Secondary Phone": "Secondary Phone",
+  "Email": "Email",
+  "Website": "Website",
+  "Show Contact": "Show Contact",
+  "Display contact information": "Display contact information",
+
+  "Working Hours": "Working Hours",
+  "Municipality working days and hours": "Municipality working days and hours",
+  "Working Days": "Working Days",
+
+  "Social Media": "Social Media",
+  "Official municipality social media links": "Official municipality social media links",
+  "Facebook": "Facebook",
+  "Instagram": "Instagram",
+  "YouTube": "YouTube",
+  "Telegram": "Telegram",
+  "WhatsApp": "WhatsApp",
+  "Show Social Media": "Show Social Media",
+  "Display social media links": "Display social media links",
+
+  "Images & Branding": "Images & Branding",
+  "Images used on the public About page": "Images used on the public About page",
+  "Logo": "Logo",
+  "Main Image": "Main Image",
+  "Cover Image": "Cover Image",
+
+  "SEO Settings": "SEO Settings",
+  "Search engine information": "Search engine information",
+  "Meta Title": "Meta Title",
+  "Meta Description": "Meta Description",
+
+  "Display Settings": "Display Settings",
+  "Control About page visibility": "Control About page visibility",
+  "About Page": "About Page",
+  "Enable About page": "Enable About page",
+  "Contact": "Contact",
+
+  "Active": "Active",
+  "Hidden": "Hidden",
+
+  "Loading About information...": "Loading About information...",
+  "Saving...": "Saving...",
+  "Save Changes": "Save Changes",
+
+  "About information saved successfully": "About information saved successfully",
+  "Failed to load About information": "Failed to load About information",
+  "Failed to save About information": "Failed to save About information",
+  "viewDetails":"View Details",
+  "Service Directory": "Service Directory",
+"Browse all municipality services": "Browse all municipality services",
+"Didn't find the service you are looking for?": "Didn't find the service you are looking for?",
+"Contact Municipality": "Contact Municipality",
+  
+"aboutUs":"About Us",
+"user":"User",
+"mediaCenter":"Media Center",
+"allMedia":"All Media",
+"language":"Language"
+
+,
+  "loadingAboutInformation": "Loading About information...",
+
+  "jabataAlKhashabMunicipality": "Jabata Al Khashab Municipality",
+  "aboutJabataAlKhashab": "About Jabata Al Khashab",
+  "municipalCommunityServing": "A municipal community serving its citizens and contributing to the development of the local area.",
+  "jabataAlKhashabDescription": "Jabata Al Khashab Municipality is a local administrative institution working to serve the community and support the development of the villages and areas under its responsibility.",
+  "jabataAlKhashabHistory": "Jabata Al Khashab Municipality represents an important local institution working to serve citizens and contribute to the development of the local community.",
+  "jabataAlKhashabVision": "Building a developed, organized and sustainable local community that provides better services for citizens.",
+  "jabataAlKhashabMission": "Providing effective municipal services, strengthening communication with citizens and supporting local development.",
+  "jabataAlKhashabValues": "Community, cooperation, development, transparency and responsibility.",
+
+  "quneitraGovernorate": "Quneitra Governorate",
+  "jabataAlKhashab": "Jabata Al Khashab",
+
+  "whoWeAre": "Who We Are",
+  "ourMunicipality": "Our Municipality",
+  "servingCitizensSupportingDevelopment": "Serving citizens, supporting development and strengthening communication with the community.",
+
+  "municipalitySeeks": "The municipality seeks to provide better public services, improve communication with citizens, support local initiatives and contribute to creating a more organized and sustainable community.",
+  "digitalPlatformAccess": "Through this digital platform, citizens can access municipal information, services, news, announcements and other useful resources more easily.",
+
+  "ourCommunity": "Our Community",
+  "communityWithIdentityFuture": "A Community With Identity and Future",
+  "communityDevelopment": "The municipality works together with citizens and local communities to improve the quality of life and support initiatives that contribute to the future of the area.",
+
+  "servingLocalCommunity": "Serving the local community",
+  "improvingPublicServices": "Improving public services",
+  "supportingLocalDevelopment": "Supporting local development",
+  "strengtheningCommunication": "Strengthening communication with citizens",
+
+  "visionMission": "Vision & Mission",
+  "ourDirection": "Our Direction",
+  "vision": "Vision",
+  "mission": "Mission",
+  "values": "Values",
+
+  "ourValues": "Our Values",
+  "whatWeBelieveIn": "What We Believe In",
+
+  "community": "Community",
+  "communityValue": "Putting citizens and the local community at the heart of our work.",
+
+  "cooperation": "Cooperation",
+  "cooperationValue": "Working together with citizens and local institutions to achieve common goals.",
+
+  "development": "Development",
+  "developmentValue": "Supporting projects and initiatives that improve the local environment.",
+
+  "transparency": "Transparency",
+
+  "municipalRole": "Municipal Role",
+  "whatWeDo": "What We Do",
+
+  "publicServices": "Public Services",
+  "publicServicesDescription": "Providing and supporting municipal services for citizens.",
+
+  "environment": "Environment",
+  "environmentDescription": "Supporting environmental care, cleanliness and preservation of public spaces.",
+
+ 
+  "citizensDescription": "Listening to citizens and receiving their requests and feedback.",
+
+  "digitalServices": "Digital Services",
+  "digitalServicesDescription": "Making municipal information and services easier to access online.",
+
+  "location": "Location",
+
+  "viewLocationGoogleMaps": "View location on Google Maps",
+  "mapCanBeAddedHere": "Map can be added here",
+
+  "workingDays": "Working Days",
+ 
+  "contactMunicipality": "Contact Municipality",
+
+  "digitalMunicipality": "Digital Municipality",
+  "yourMunicipalityCloser": "Your Municipality, Closer to You",
+  "digitalPlatformDescription": "Our digital platform makes it easier for citizens to discover municipal services, follow news and announcements, access media and communicate with the municipality.",
+
+  "exploreServices": "Explore Services",
+
+
+  "aboutFooterNote": "Jabata Al Khashab Municipality - Serving the community with responsibility and commitment."
+,
+"A leading municipality in services and quality of life":"A leading municipality in services and quality of life",
+"Quneitra - Jabatha Al-Khashab":"Quneitra - Jabatha Al-Khashab",
+"Jibatha Al-Khashab Municipality":"Jibatha Al-Khashab Municipality",
+"We are here to help you. Contact Jubata Al-Khashab Municipality.":"We are here to help you. Contact Jubata Al-Khashab Municipality.",
+
+  "exploreLatestMedia": "Explore the latest photos, videos and documents",
+
+
+  "images": "Images",
+  "videos": "Videos",
+
+
+  "searchMedia": "Search media...",
+
+  "showing": "Showing",
+  "media": "media",
+
+  "noMediaAvailable": "No Media Available",
+  "noMediaMatchesFilters": "No media matches your current filters",
+
+  "viewImage": "View Image",
+  "openFile": "Open File",
+
+  "mediaFile": "Media",
+
+  "addVillage": "Add Village",
+
+  "totalVillages": "Total Villages",
+  "towns": "Towns",
+
+
+  "searchVillage": "Search village...",
+
+ 
+
+  "noVillages": "No villages available",
+
+
+
+  "editVillage": "Edit Village",
+
+  "villageName": "Village Name",
+  "villageNameArabic": "Village Name in Arabic",
+  "villageNameEnglish": "Village Name in English",
+
+
+  "descriptionArabic": "Village Description in Arabic",
+  "descriptionEnglish": "Village Description in English",
+
+  "selectTown": "Select Town",
+
+
+  "mediaUrl": "Image or Video URL",
+
+ 
+  "add": "Add",
+
+
+  "confirmDelete": "Are you sure you want to delete this village?",
+
+  "villageAdded": "Village added successfully",
+  "villageUpdated": "Village updated successfully",
+  "villageDeleted": "Village deleted successfully",
+
+
+  "exploreVillagesDescription": "Explore village information",
+  "noVillagesAvailable": "No villages available",
+  "noImage": "No Image",
+
+
+
+  "municipalityNewsAndAnnouncements": "Latest municipality news and announcements",
+
+  "clear": "Clear",
+  "noNewsAvailable": "No news available",
+
+
+
+
+  
+  "share": "Share",
+  "linkCopied": "Link copied",
+  "relatedNews": "Related News",
+
+  "comments": "Comments",
+  "noCommentsYet": "No comments yet",
+  
+  "reply": "Reply",
+  "hideReplies": "Hide Replies",
+  "showReplies": "Show Replies",
+
+  "addComment": "Add Comment",
+  "writeYourComment": "Write your comment...",
+  "sendComment": "Send Comment",
+
+  "writeReply": "Write Reply",
+  "writeYourReply": "Write your reply...",
+  "sendReply": "Send Reply",
+
+
+  "newsNotFound": "News not found",
+  
+  "serviceDirectory": "Service Directory",
+  "browseAllMunicipalityServices": "Browse all municipality services",
+  "didntFindTheServiceYouAreLookingFor": "Didn't find the service you are looking for?",
+  
+
+
+
+  "success": "Success",
+  "error": "Error",
+
+  "noRequirements": "No requirements",
+  "fees": "Fees",
+  "serviceLink": "Service Link",
+
+  "submitRequest": "Submit Request",
+
+  "sendRequest": "Send Request",
+
+
+  "pleaseLoginFirst": "Please login first",
+
+  "requestSubmittedSuccessfully": "Your request has been submitted successfully. It will be reviewed soon.",
+  "unexpectedResponseFromServer": "Unexpected response from server",
+  "somethingWentWrong": "Something went wrong",
+
+    "fileTooLarge": "File size is too large. The maximum allowed size is 10 MB.",
+    "fullNameRequired": "Full name is required.",
+   
+    "nationalIdRequired": "National ID is required.",
+    "invalidNationalId": "National ID must contain 8 to 20 digits.",
+    "birthDateRequired": "Birth date is required.",
+    "addressRequired": "Address is required.",
+    "phoneRequired": "Phone number is required.",
+    "invalidPhone": "Invalid phone number.",
+    "deathDateRequired": "Death date is required.",
+    "disabilityTypeRequired": "Disability type is required.",
+    
+  
+  "nationalId": "National ID",
+ 
+ 
+  "deathDate": "Death Date",
+  "disabilityType": "Disability Type",
+
+  "uploadDocuments": "Upload Documents",
+
+  "chooseFile": "Choose File",
+"noFileChosen": "No file chosen",
+
+
+ 
+  "about": "About Municipality",
+  
+
+
+  "areYouSure": "Are you sure?",
+  
+
+  "selectService": "Select Service",
+ 
+  "savedSuccessfully": "Saved successfully",
+  "errorSavingData": "Error saving data"
+,
+
+  "requestNotFound": "Request not found",
+  "requestDetails": "Request Details",
+
+  "document": "Document",
+  "open": "Open",
+  "noDocuments": "No documents available",
+
+  "notFound": "Not found",
+
+
+  "martyrDetails": "Martyr Details",
+  "citizenDetails": "Citizen Details",
+  "specialNeedsDetails": "Special Needs Details",
+ "submittedDate": "Submitted Date",
+ 
+ " addServiceType":"Add Service Type",
+
+  "generalMunicipality": "General Municipality",
+  "newsMediaUpload": "Upload News Images, Videos and Documents",
+  "publish": "Publish News",
+  "saveDraft": "Save as Draft",
+  
+  "uploadMedia": "Upload Media",
+  "totalFiles": "Total Files",
+  "allTypes": "All Types",
+  
+
+  "drafts": "Drafts",
+ 
+  "noDrafts": "There are no draft news articles currently",
+  
+  "failedToFetchContactMessages": "Failed to fetch contact messages",
+
+  "unknown": "Unknown",
+  "failedToUpdateContactStatus": "Failed to update message status",
+  "confirmDeleteContactMessage": "Are you sure you want to delete this contact message?",
+  "failedToDeleteContactMessage": "Failed to delete contact message",
+
+  "contactStatsTotal": "Total Messages",
+  "contactStatsNew": "New Messages",
+  "contactStatsRead": "Read Messages",
+  "contactStatsReplied": "Replied Messages",
+  
+  "adminNotifications": "Admin Notifications",
+ 
+  "unread": "Unread",
+
+  "noNotifications": "No notifications",
+ 
+
+
+  "newCitizenRequest": "A new citizen request was submitted by {{name}}.",
+  "newMartyrRequest": "A new martyr request was submitted by {{name}}.",
+  "newSpecialNeedsRequest": "A new special needs request was submitted by {{name}}.",
+  "requestStatusNotification": "Your request status has been updated to: {{status}}.",
+
+  "requestStatuses": {
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  }
+
+ ,
+  "qrCode": "Website QR Code",
+  "qrCodeDescription": "Download the website QR code and use it in brochures, publications, and printed materials.",
+  "websiteLink": "Website Link",
+  "downloadQRCode": "Download QR Code",
+  
+  "person": "people",
+  "squareKilometer": "km²",
+  
+  "readMore": "Read More",
+  "Village News": "Village News",
+  "No village news": "No news available for this village",
+  "Population": "Population",
+  "Area": "Area",
+  "Back": "Back",
+  "Open Document": "Open Document",
+  "No Media Available": "No Media Available",
+  "No description": "No description available",
+  "Village not found": "Village not found",
+  "Village": "Village",
+  "Latest news will appear here": "Latest news will appear here"
+
+,"martyrName": "Martyr Name",
+"beneficiaryName": "Beneficiary Name",
+"selectDisabilityType": "Select disability type",
+"physicalDisability": "Physical disability",
+"visualDisability": "Visual disability",
+"hearingDisability": "Hearing disability",
+"intellectualDisability": "Intellectual disability",
+"speechDisability": "Speech and communication disability",
+"multipleDisabilities": "Multiple disabilities",
+"otherDisability": "Other"
+,"otherDisabilityType": "Specify disability type",
+"enterOtherDisability": "Please enter the disability type",
+
+  "otherDisabilityRequired": "Please specify the disability type",
+  
+  "serviceInformation": "Service Information",
+  "personInformation": "Person Information",
+  "addPersonDescription": "Add a new person's information to the system",
+
+  "fullNameTwoWords": "Please enter the full name with at least two words."
+
+,"validation.fullNameTwoWords":"Please enter the full name with at least two words.",
+
+  "noServicesFound": "No Services Found",
+
+  "addServiceTitle": "Add Service",
+  "editServiceTitle": "Edit Service",
+
+  "serviceTitle": "Service Title",
+ 
+  "serviceIcon": "Service Icon",
+
+
+  "water": "Water",
+  "housing": "Housing",
+  "other": "Other",
+
+
+  "deleteServiceConfirm": "Are you sure you want to delete this service?",
+  "serviceSaveError": "An error occurred while saving the service",
+  "serviceDeleteError": "An error occurred while deleting the service",
+
+  "showDetails": "Show Details",
+  "submit": "Submit",
+  "reviews": "Reviews",
+  
+
+  
+  "editServiceType": "Edit Service Type",
+
+  "request": "Request",
+
+  "typeTitle": "Type Title",
+ 
+  "detailsButtonText": "Details Button Text",
+  "requestButtonText": "Request Button Text",
+
+  "hasRequestForm": "Has Request Form?",
+
+
+
+  "yes": "Yes",
+  "no": "No",
+
+  "personType": "Person Type",
+ 
+  "citizen": "Citizen",
+  "martyr": "Martyr",
+ 
+
+  "noServiceTypesFound": "No Service Types Found",
+  "errorWhileSaving": "Error while saving",
+  "confirmDeleteServiceType": "Are you sure you want to delete this service type?",
+  
+  "select": "Select",
+  "selectAll": "Select All",
+  "markAllAsRead": "Mark All as Read",
+  "deleteSelected": "Delete Selected",
+  "deleteAll": "Delete All",
+
+  "confirmDeleteSelectedNotifications": "Are you sure you want to delete the selected notifications?",
+  "confirmDeleteAllNotifications": "Are you sure you want to delete all notifications?",
+
+"selectedMessages": "الرسائل المحددة",
+
+"selectMessage": "تحديد الرسالة",
+"confirmDeleteSelectedContactMessages": "هل أنت متأكد من حذف الرسائل المحددة؟",
+"failedToDeleteSelectedContactMessages": "فشل حذف الرسائل المحددة",
+
+
+
+  "searchRequests": "Search requests...",
+  "allRequests": "All Requests",
+
+  "cancelSelection": "Cancel Selection",
+ 
+  "selectedRequests": "Selected Requests",
+  "selectRequest": "Select request",
+
+  "confirmDeleteSelectedRequests": "Are you sure you want to delete the selected requests?",
+  "failedToDeleteSelectedRequests": "Failed to delete selected requests",
+
+  "showingRequests": "Showing",
+  
+  "noRequests": "No requests found",
+
+  "writeAdminNotes": "Write admin notes here...",
+  "saveNotes": "Save Notes",
+  "saving": "Saving...",
+  "notesSavedSuccessfully": "Admin notes saved successfully.",
+  "failedToSaveNotes": "Failed to save admin notes.",
+  
+  "searchServices": "Search services...",
+  "searchServiceTypes": "Search service types...",
+  "allStatuses": "All Status",
+  "allServices": "All Services",
+  "reset": "Reset"
+ 
+
+  
+
+
+
+
+
+  
+  
+
+
+
+}
+
+
+
+
+
+  
+
+
+

@@ -1,0 +1,107 @@
+.citizen-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* العناوين */
+.title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* رسالة النجاح / الخطأ */
+.message {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* صندوق الفورم + الجدول */
+.citizen-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* فورم المواطن */
+.form-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.form-box input,
+.form-box textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-box textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* زر الإرسال */
+.submit-btn {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.submit-btn:hover {
+  background-color: #27ae60;
+}
+
+/* جدول الطلبات */
+.requests-box {
+  flex: 2;
+}
+
+.citizen-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.citizen-table th,
+.citizen-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 13px;
+}
+
+.citizen-table th {
+  background-color: #f5f5f5;
+  text-align: left;
+}
+
+/* رسبونسف للموبايل */
+@media (max-width: 768px) {
+  .citizen-layout {
+    flex-direction: column;
+  }
+
+  .form-box {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .citizen-table th,
+  .citizen-table td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}

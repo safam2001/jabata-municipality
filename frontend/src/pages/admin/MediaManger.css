@@ -1,0 +1,571 @@
+/* ===========================
+   Media Manager
+=========================== */
+
+.media-manager-container{
+  padding:30px;
+  background:#f5f7fb;
+  min-height:100vh;
+}
+
+/* ===========================
+   Header
+=========================== */
+
+.page-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:30px;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.page-header h2{
+  margin:0;
+  font-size:28px;
+  color:#1f2937;
+}
+
+.page-header p{
+  margin-top:8px;
+  color:#6b7280;
+}
+
+.upload-btn{
+  border:none;
+  padding:12px 22px;
+  border-radius:12px;
+  background:#0d6efd;
+  color:#fff;
+  cursor:pointer;
+  font-size:15px;
+  font-weight:600;
+  transition:.3s;
+}
+
+.upload-btn:hover{
+  background:#0b5ed7;
+}
+
+/* ===========================
+   Stats
+=========================== */
+
+.stats-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:18px;
+  margin-bottom:25px;
+}
+
+.stat-card{
+  background:#fff;
+  border-radius:16px;
+  padding:20px;
+  box-shadow:0 6px 18px rgba(0,0,0,.08);
+  text-align:center;
+}
+
+.stat-card h3{
+  margin:0;
+  font-size:30px;
+  color:#0d6efd;
+}
+
+.stat-card span{
+  display:block;
+  margin-top:10px;
+  color:#666;
+}
+
+/* ===========================
+   Toolbar
+=========================== */
+
+.toolbar{
+  display:flex;
+  gap:15px;
+  margin-bottom:25px;
+  flex-wrap:wrap;
+}
+
+.toolbar input{
+  flex:1;
+  min-width:250px;
+  padding:12px;
+  border:1px solid #ddd;
+  border-radius:10px;
+  outline:none;
+}
+
+.toolbar input:focus{
+  border-color:#0d6efd;
+}
+
+.toolbar select{
+  min-width:180px;
+  padding:12px;
+  border-radius:10px;
+  border:1px solid #ddd;
+  cursor:pointer;
+}
+
+.loading-box{
+  text-align:center;
+  padding:40px;
+  font-size:18px;
+  color:#666;
+}
+/* ===========================
+   Media Grid
+=========================== */
+
+.media-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:25px;
+}
+
+.media-card{
+  background:#fff;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 8px 22px rgba(0,0,0,.08);
+  transition:.3s;
+}
+
+.media-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 12px 28px rgba(0,0,0,.12);
+}
+
+/* ===========================
+   Preview
+=========================== */
+
+.media-preview{
+  width:100%;
+  height:220px;
+  background:#eef2f7;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+
+.media-preview img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.media-preview video{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.document-box{
+  font-size:70px;
+  color:#dc3545;
+}
+
+/* ===========================
+   Information
+=========================== */
+
+.media-info{
+  padding:18px;
+}
+
+.media-info h3{
+  margin:0 0 10px;
+  color:#222;
+  font-size:20px;
+}
+
+.media-info p{
+  color:#666;
+  margin-bottom:15px;
+  line-height:1.6;
+}
+
+.info-item{
+  margin-bottom:8px;
+  color:#444;
+  font-size:14px;
+}
+
+.info-item strong{
+  color:#222;
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.media-actions{
+  display:flex;
+  gap:10px;
+  padding:18px;
+  border-top:1px solid #eee;
+}
+
+.media-actions button{
+  flex:1;
+  border:none;
+  padding:10px;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:600;
+  transition:.3s;
+}
+
+.edit-btn{
+  background:#ffc107;
+  color:#222;
+}
+
+.edit-btn:hover{
+  background:#e0a800;
+}
+
+.delete-btn{
+  background:#dc3545;
+  color:#fff;
+}
+
+.delete-btn:hover{
+  background:#bb2d3b;
+}
+/* ===========================
+   Modal
+=========================== */
+
+.modal-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.45);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index:999;
+}
+
+.modal-content{
+  width:95%;
+  max-width:650px;
+  background:#fff;
+  border-radius:18px;
+  padding:25px;
+  box-shadow:0 15px 40px rgba(0,0,0,.18);
+  animation:fadeIn .25s ease;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+    transform:translateY(-20px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+.modal-content h2,
+.modal-content h3{
+  margin-top:0;
+  margin-bottom:20px;
+  color:#222;
+}
+
+/* ===========================
+   Form
+=========================== */
+
+.form-group{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:18px;
+}
+
+.form-group label{
+  margin-bottom:8px;
+  font-weight:600;
+  color:#333;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select{
+  border:1px solid #ddd;
+  border-radius:10px;
+  padding:12px;
+  font-size:15px;
+  outline:none;
+  transition:.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus{
+  border-color:#0d6efd;
+}
+
+.form-group textarea{
+  resize:vertical;
+}
+
+/* ===========================
+   Modal Buttons
+=========================== */
+
+.modal-actions{
+  display:flex;
+  justify-content:flex-end;
+  gap:12px;
+  margin-top:25px;
+}
+
+.save-btn{
+  background:#198754;
+  color:#fff;
+  border:none;
+  padding:11px 22px;
+  border-radius:10px;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.save-btn:hover{
+  background:#157347;
+}
+
+.cancel-btn{
+  background:#6c757d;
+  color:#fff;
+  border:none;
+  padding:11px 22px;
+  border-radius:10px;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.cancel-btn:hover{
+  background:#5c636a;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:768px){
+
+  .media-manager-container{
+    padding:18px;
+  }
+
+  .page-header{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .toolbar{
+    flex-direction:column;
+  }
+
+  .toolbar input,
+  .toolbar select{
+    width:100%;
+  }
+
+  .media-grid{
+    grid-template-columns:1fr;
+  }
+
+  .media-actions{
+    flex-direction:column;
+  }
+
+  .modal-content{
+    width:95%;
+    padding:18px;
+  }
+
+  .modal-actions{
+    flex-direction:column;
+  }
+
+  .save-btn,
+  .cancel-btn{
+    width:100%;
+  }
+
+}
+/* ===========================
+   Modal
+=========================== */
+
+.modal-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.45);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index:999;
+}
+
+.modal-content{
+  width:95%;
+  max-width:650px;
+  background:#fff;
+  border-radius:18px;
+  padding:25px;
+  box-shadow:0 15px 40px rgba(0,0,0,.18);
+  animation:fadeIn .25s ease;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+    transform:translateY(-20px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+.modal-content h2,
+.modal-content h3{
+  margin-top:0;
+  margin-bottom:20px;
+  color:#222;
+}
+
+/* ===========================
+   Form
+=========================== */
+
+.form-group{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:18px;
+}
+
+.form-group label{
+  margin-bottom:8px;
+  font-weight:600;
+  color:#333;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select{
+  border:1px solid #ddd;
+  border-radius:10px;
+  padding:12px;
+  font-size:15px;
+  outline:none;
+  transition:.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus{
+  border-color:#0d6efd;
+}
+
+.form-group textarea{
+  resize:vertical;
+}
+
+/* ===========================
+   Modal Buttons
+=========================== */
+
+.modal-actions{
+  display:flex;
+  justify-content:flex-end;
+  gap:12px;
+  margin-top:25px;
+}
+
+.save-btn{
+  background:#198754;
+  color:#fff;
+  border:none;
+  padding:11px 22px;
+  border-radius:10px;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.save-btn:hover{
+  background:#157347;
+}
+
+.cancel-btn{
+  background:#6c757d;
+  color:#fff;
+  border:none;
+  padding:11px 22px;
+  border-radius:10px;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.cancel-btn:hover{
+  background:#5c636a;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:768px){
+
+  .media-manager-container{
+    padding:18px;
+  }
+
+  .page-header{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .toolbar{
+    flex-direction:column;
+  }
+
+  .toolbar input,
+  .toolbar select{
+    width:100%;
+  }
+
+  .media-grid{
+    grid-template-columns:1fr;
+  }
+
+  .media-actions{
+    flex-direction:column;
+  }
+
+  .modal-content{
+    width:95%;
+    padding:18px;
+  }
+
+  .modal-actions{
+    flex-direction:column;
+  }
+
+  .save-btn,
+  .cancel-btn{
+    width:100%;
+  }
+
+}

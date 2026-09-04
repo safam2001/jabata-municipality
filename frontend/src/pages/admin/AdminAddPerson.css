@@ -1,0 +1,655 @@
+/* =========================================================
+   Admin Add Person
+========================================================= */
+
+.admin-add-person-page {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 25px 20px 40px;
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   Header
+========================================================= */
+
+.admin-add-person-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 22px;
+}
+
+.admin-add-person-header > div {
+  flex: 1;
+}
+
+.admin-add-person-header h2 {
+  margin: 0 0 5px;
+  color: #004d40;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.admin-add-person-header p {
+  margin: 0;
+  color: #78909c;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   Back Button
+========================================================= */
+
+.back-add-btn {
+  flex-shrink: 0;
+
+  padding: 7px 13px;
+
+  border: 1px solid #d5dddd;
+  border-radius: 7px;
+
+
+  color: #455a64;
+
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+background-color: #004d40;
+color: #ffffff;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.back-add-btn:hover {
+  background: #f1f7f6;
+  color: #004d40;
+  border-color: #3f2094;
+  transform: translateY(-1px);
+}
+
+/* =========================================================
+   Messages
+========================================================= */
+
+.admin-form-message {
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-bottom: 18px;
+  padding: 11px 14px;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+.admin-form-message.success {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+}
+
+.admin-form-message.error {
+  background: #ffebee;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+}
+
+/* =========================================================
+   Main Form
+========================================================= */
+
+.add-person-form {
+  width: 100%;
+  background: #ffffff;
+
+  padding: 25px;
+  border-radius: 14px;
+
+  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.07);
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   Sections
+========================================================= */
+
+.admin-form-section {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 20px;
+
+  border: 1px solid #e3e9e8;
+  border-radius: 11px;
+
+  background: #fbfdfd;
+}
+
+/*
+   مسافة صغيرة بين قسم الخدمة
+   وقسم معلومات الشخص
+*/
+
+.admin-form-section + .admin-form-section {
+  margin-top: 14px;
+}
+
+/* Section title */
+
+.admin-form-section h3 {
+  margin: 0 0 17px;
+
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid #e1e8e7;
+
+  color: #00695c;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* =========================================================
+   Service Section
+========================================================= */
+
+/*
+   الخدمة + نوع الخدمة
+   كل واحدة بشكل مستقل مع مسافة صغيرة
+*/
+
+.admin-form-section select {
+  margin-bottom: 5px;
+}
+
+.admin-form-section label + select {
+  display: block;
+}
+
+/*
+   مسافة بين الخدمة ونوع الخدمة
+*/
+
+.admin-form-section label:nth-of-type(2) {
+  margin-top: 10px;
+}
+
+/* =========================================================
+   Labels
+========================================================= */
+
+.add-person-form label {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: #37474f;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* =========================================================
+   Inputs / Select / Textarea
+========================================================= */
+
+.add-person-form input,
+.add-person-form select,
+.add-person-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 11px 13px;
+
+  border: 1px solid #d3dddb;
+  border-radius: 8px;
+
+  background: #ffffff;
+  color: #263238;
+
+  font-family: inherit;
+  font-size: 14px;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+/* Focus */
+
+.add-person-form input:focus,
+.add-person-form select:focus,
+.add-person-form textarea:focus {
+  border-color: #00897b;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 0 0 3px rgba(0, 137, 123, 0.09);
+}
+
+/* Placeholder */
+
+.add-person-form input::placeholder,
+.add-person-form textarea::placeholder {
+  color: #9aa6a6;
+}
+
+/* Select */
+
+.add-person-form select {
+  cursor: pointer;
+}
+
+/* Disabled */
+
+.add-person-form select:disabled {
+  background: #f1f4f4;
+  color: #9aa5a5;
+  cursor: not-allowed;
+}
+
+/* =========================================================
+   RequestForm Inside Admin
+========================================================= */
+
+/*
+   RequestForm يحتوي على form-group
+   نخليه Grid حتى تكون الحقول مرتبة عمودين
+*/
+
+.admin-form-section .form-group {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  column-gap: 20px;
+  row-gap: 6px;
+}
+
+/*
+   العناصر الموجودة داخل RequestForm
+*/
+
+.admin-form-section .form-group label {
+  margin-top: 6px;
+}
+
+/*
+   input يأتي بعد label
+   لذلك نحافظ على ترتيب الحقول
+*/
+
+.admin-form-section .form-group input,
+.admin-form-section .form-group textarea,
+.admin-form-section .form-group select {
+  margin-bottom: 7px;
+}
+
+/* =========================================================
+   Error
+========================================================= */
+
+.input-error {
+  border-color: #e53935 !important;
+
+  background: #fffafa !important;
+
+  box-shadow:
+    0 0 0 2px rgba(229, 57, 53, 0.08);
+}
+
+.error-text {
+  display: block;
+
+  margin-top: -2px;
+  margin-bottom: 4px;
+
+  color: #d32f2f;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  line-height: 1.5;
+}
+
+/* =========================================================
+   Textarea
+========================================================= */
+
+.add-person-form textarea {
+  min-height: 105px;
+  resize: vertical;
+}
+
+/* =========================================================
+   File Input
+========================================================= */
+
+.add-person-form input[type="file"] {
+  padding: 8px 10px;
+
+  background: #ffffff;
+
+  cursor: pointer;
+}
+
+.add-person-form input[type="file"]::file-selector-button {
+  margin-left: 8px;
+
+  padding: 6px 11px;
+
+  border: 1px solid #b8ccca;
+  border-radius: 6px;
+
+  background: #f2f7f6;
+  color: #00695c;
+
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+/* =========================================================
+   Full Width Fields
+========================================================= */
+
+/*
+   لأن RequestForm يستخدم Grid:
+   الملاحظات والملفات تكون بعرض كامل
+*/
+
+.admin-form-section .form-group textarea,
+.admin-form-section .form-group input[type="file"] {
+  grid-column: 1 / -1;
+}
+
+/* =========================================================
+   Buttons
+========================================================= */
+
+.form-buttons {
+  display: flex;
+
+  justify-content: flex-start;
+
+  align-items: center;
+
+  gap: 9px;
+
+  margin-top: 18px;
+}
+
+/* Save */
+
+.save-btn {
+  min-width: 105px;
+
+  padding: 9px 16px;
+
+  border: none;
+  border-radius: 7px;
+
+  /* background: #00695c; */
+ 
+  color: #ffffff;
+
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.save-btn:hover:not(:disabled) {
+  /* background: #004d40; */
+  /* background: rgb(28, 28, 105); */
+
+  box-shadow:
+    0 4px 12px rgba(0, 77, 64, 0.18);
+
+  transform: translateY(-1px);
+}
+
+.save-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+/* Cancel */
+
+.cancel-btn {
+  min-width: 85px;
+
+  padding: 8px 14px;
+
+  border: 1px solid #cfd8d7;
+  border-radius: 7px;
+
+  background: #ffffff;
+  color: #546e7a;
+
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.cancel-btn:hover:not(:disabled) {
+  background: #686969;
+  border-color: #90a4ae;
+  color: #37474f;
+}
+
+/* Disabled buttons */
+
+.save-btn:disabled,
+.cancel-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* =========================================================
+   Loading
+========================================================= */
+
+.loading-page {
+  min-height: 250px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #00695c;
+
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* =========================================================
+   Tablet
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .admin-add-person-page {
+    padding: 20px 15px 30px;
+  }
+
+  .admin-add-person-header {
+    gap: 10px;
+  }
+
+  .admin-add-person-header h2 {
+    font-size: 23px;
+  }
+
+  .admin-add-person-header p {
+    font-size: 13px;
+  }
+
+  .add-person-form {
+    padding: 18px;
+  }
+
+  .admin-form-section {
+    padding: 17px;
+  }
+
+  .admin-form-section .form-group {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+
+  .admin-form-section .form-group textarea,
+  .admin-form-section .form-group input[type="file"] {
+    grid-column: auto;
+  }
+
+  .form-buttons {
+    justify-content: flex-start;
+  }
+}
+
+/* =========================================================
+   Mobile
+========================================================= */
+
+@media (max-width: 480px) {
+
+  .admin-add-person-page {
+    padding: 15px 10px 25px;
+  }
+
+  .admin-add-person-header {
+    align-items: center;
+  }
+
+  .admin-add-person-header h2 {
+    font-size: 20px;
+  }
+
+  .admin-add-person-header p {
+    font-size: 12px;
+  }
+
+  .back-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .add-person-form {
+    padding: 12px;
+    border-radius: 11px;
+  }
+
+  .admin-form-section {
+    padding: 14px;
+    border-radius: 9px;
+  }
+
+  .admin-form-section h3 {
+    font-size: 15px;
+    margin-bottom: 14px;
+  }
+
+  .add-person-form label {
+    font-size: 13px;
+  }
+
+  .add-person-form input,
+  .add-person-form select,
+  .add-person-form textarea {
+    padding: 10px 11px;
+    font-size: 13px;
+  }
+
+  .add-person-form textarea {
+    min-height: 95px;
+  }
+
+  .form-buttons {
+    gap: 7px;
+    margin-top: 15px;
+  }
+
+  .save-btn {
+    min-width: 90px;
+    padding: 8px 13px;
+    font-size: 12px;
+  }
+
+  .cancel-btn {
+    min-width: 75px;
+    padding: 7px 12px;
+    font-size: 12px;
+  }
+}
+
+/* =========================================================
+   Very Small Screens
+========================================================= */
+
+@media (max-width: 360px) {
+
+  .admin-add-person-page {
+    padding: 12px 7px 20px;
+  }
+
+  .add-person-form {
+    padding: 9px;
+  }
+
+  .admin-form-section {
+    padding: 12px;
+  }
+
+  .admin-add-person-header h2 {
+    font-size: 18px;
+  }
+
+  .back-btn {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
+
+  .form-buttons {
+    width: 100%;
+  }
+
+  .save-btn,
+  .cancel-btn {
+    min-width: 0;
+    flex: 0 0 auto;
+  }
+}

@@ -1,0 +1,123 @@
+.create-news-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fdfdfd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.create-news-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.publish-btn,
+.draft-btn,
+.back-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.publish-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.draft-btn {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.back-btn {
+  background-color:#28a745;
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* معاينة الملفات */
+.preview-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.preview-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f1f1f1;
+  padding: 8px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.preview-image {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.preview-video {
+  width: 160px;
+  height: 90px;
+  border-radius: 4px;
+  background: #000;
+}
+
+.preview-item a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.remove-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+}

@@ -1,0 +1,22 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 900 600"
+>
+  <!-- Green - Top -->
+  <rect width="900" height="200" y="0" fill="#007A3D"/>
+
+  <!-- White - Middle -->
+  <rect width="900" height="200" y="200" fill="#FFFFFF"/>
+
+  <!-- Black - Bottom -->
+  <rect width="900" height="200" y="400" fill="#000000"/>
+
+  <!-- Three Red Stars -->
+  <g fill="#CE1126">
+    <path d="M225 300 L235 325 L262 327 L241 344 L248 370 L225 355 L202 370 L209 344 L188 327 L215 325 Z"/>
+    
+    <path d="M450 300 L460 325 L487 327 L466 344 L473 370 L450 355 L427 370 L434 344 L413 327 L440 325 Z"/>
+    
+    <path d="M675 300 L685 325 L712 327 L691 344 L698 370 L675 355 L652 370 L659 344 L638 327 L665 325 Z"/>
+  </g>
+</svg>
