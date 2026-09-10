@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 
 import UploadMediaModal from "./UploadMediaModal";
 import EditMediaModal from "./EditMediaModal";
@@ -58,7 +59,7 @@ const MediaManager = () => {
 
   const deleteMedia = async (id) => {
 
-    if (!window.confirm(t("confirmDelete"))) {
+    if (!(await showAppModal(t("confirmDelete"), { type: "confirm" }))) {
       return;
     }
 

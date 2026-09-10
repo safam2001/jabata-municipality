@@ -99,12 +99,12 @@
 //     } catch (err) {
 //       console.log(err.response?.data);
 //       console.log(err)
-//       alert("Error while saving");
+//       showAppModal("Error while saving", { type: "error" });
 //     }
 //   };
 
 //   const handleDelete = async (id) => {
-//     if (!window.confirm("Are you sure you want to delete this type?")) return;
+//     if (!(await showAppModal("Are you sure you want to delete this type?", { type: "confirm" }))) return;
 //     try {
 //       await axiosInstance.delete(`/api/service-types/${id}`);
 //       fetchServiceTypes();
@@ -329,6 +329,7 @@ import axiosInstance from "../../api/axiosInstance";
 import "./AdminServiceTypes.css";
 
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 
 const AdminServiceTypes = () => {
   const [serviceTypes, setServiceTypes] = useState([]);
@@ -496,7 +497,7 @@ const filteredServiceTypes = useMemo(() => {
       console.log(err.response?.data);
       console.log(err);
 
-      alert(t("errorWhileSaving"));
+      showAppModal(t("errorWhileSaving"), { type: "error" });
     }
   };
 
@@ -505,7 +506,7 @@ const filteredServiceTypes = useMemo(() => {
   // =========================
 
   const handleDelete = async (id) => {
-    if (!window.confirm(t("confirmDeleteServiceType"))) {
+    if (!(await showAppModal(t("confirmDeleteServiceType"), { type: "confirm" }))) {
       return;
     }
 

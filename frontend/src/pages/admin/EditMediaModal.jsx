@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 
 const EditMediaModal = ({
   media,
@@ -49,7 +50,7 @@ const EditMediaModal = ({
 
       console.error(err);
 
-      alert(t("saveFailed"));
+      showAppModal(t("saveFailed"), { type: "error" });
 
     } finally {
 

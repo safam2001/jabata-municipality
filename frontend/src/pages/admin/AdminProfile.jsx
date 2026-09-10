@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 
 import {
     FaUser,
@@ -100,7 +101,7 @@ const AdminProfile = () => {
             );
 
 
-            alert(
+            showAppModal(
                 t("profileUpdated")
             );
 
@@ -125,8 +126,9 @@ const AdminProfile = () => {
                 passwordData.confirmPassword
             ) {
 
-                alert(
-                    t("passwordNotMatch")
+                showAppModal(
+                    t("passwordNotMatch"),
+                    { type: "error" }
                 );
 
                 return;
@@ -136,7 +138,7 @@ const AdminProfile = () => {
                 "/api/users/me/change-password",
                 passwordData
             );
-            alert(
+            showAppModal(
                 t("passwordChanged")
             );
             setPasswordData({

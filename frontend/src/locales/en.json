@@ -4,6 +4,11 @@
 
   "municipalityName": "Jubata Al-Khashab Municipality",
   "municipalityDescription": "Providing municipal services efficiently and transparently for all citizens.",
+  "success": "Success",
+  "error": "Error",
+  "confirm": "Confirm",
+  "confirmAction": "Confirm action",
+  "close": "Close",
   
   "quickLinks": "Quick Links",
 

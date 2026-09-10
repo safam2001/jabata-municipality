@@ -125,7 +125,7 @@
 
 //       console.log("Saved:", res.data);
 
-//       alert(t("savedSuccessfully"));
+//       showAppModal(t("savedSuccessfully"));
 
 //     } catch (err) {
 //       console.error(
@@ -133,7 +133,7 @@
 //         err.response?.data || err.message
 //       );
 
-//       alert(t("errorSavingData"));
+//       showAppModal(t("errorSavingData"), { type: "error" });
 //     }
 //   };
 

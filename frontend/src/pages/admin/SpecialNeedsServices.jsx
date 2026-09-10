@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 import { useNavigate } from "react-router-dom";
 import axiosInstance from "../../api/axiosInstance";
 import "./AdminRequests.css";
@@ -27,7 +28,7 @@ const SpecialNeedsServices = () => {
   };
 
   const handleDelete = async (id) => {
-    if (!window.confirm(t("areYouSure"))) return;
+    if (!(await showAppModal(t("areYouSure"), { type: "confirm" }))) return;
 
     try {
       await axiosInstance.delete(`/api/special-needs/${id}`);

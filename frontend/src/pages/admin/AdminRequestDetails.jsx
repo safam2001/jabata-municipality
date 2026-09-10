@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 import "./AdminRequestDetails.css";
 import { API_URL } from "../../config/api";
 
@@ -56,13 +57,14 @@ const AdminRequestDetails = () => {
         admin_notes: adminNotes,
       }));
 
-      alert(t("notesSavedSuccessfully"));
+      showAppModal(t("notesSavedSuccessfully"));
     } catch (err) {
       console.error("Save admin notes error:", err);
 
-      alert(
+      showAppModal(
         err.response?.data?.message ||
-          t("failedToSaveNotes")
+          t("failedToSaveNotes"),
+        { type: "error" }
       );
     } finally {
       setSavingNotes(false);

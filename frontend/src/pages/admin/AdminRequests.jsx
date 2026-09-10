@@ -178,6 +178,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 import "./AdminRequests.css";
 import { useNavigate } from "react-router-dom";
 import {
@@ -400,8 +401,9 @@ const AdminRequests = () => {
   const handleDeleteSelected = async () => {
     if (selectedIds.length === 0) return;
 
-    const confirmed = window.confirm(
-      t("confirmDeleteSelectedRequests")
+    const confirmed = await showAppModal(
+      t("confirmDeleteSelectedRequests"),
+      { type: "confirm" }
     );
 
     if (!confirmed) return;
@@ -434,9 +436,10 @@ const AdminRequests = () => {
         err
       );
 
-      alert(
+      showAppModal(
         err.response?.data?.message ||
-          t("failedToDeleteSelectedRequests")
+          t("failedToDeleteSelectedRequests"),
+        { type: "error" }
       );
     } finally {
       setDeletingSelected(false);

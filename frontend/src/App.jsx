@@ -50,6 +50,7 @@ import AdminContactMessages from "./pages/admin/AdminContactMessage";
 import AdminAbout from "./pages/admin/AdminAbout";
 import AdminNews from "./pages/admin/AdminNews";
 import QRCode from "./components/QRCode";
+import AppModal from "./components/AppModal";
 // الصفحات الفرعية
 
 import CreateNews from "./pages/admin/CreateNews";
@@ -101,6 +102,7 @@ function App() {
 
   return (
     <Router>
+      <AppModal />
       <Routes>
         {/* ========== صفحات عامة + مستخدم ========== */}
         <Route

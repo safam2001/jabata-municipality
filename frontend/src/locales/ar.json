@@ -1,6 +1,11 @@
 {
     "municipalityName": "بلدية جباثا الخشب",
   "municipalityDescription": "تقديم الخدمات البلدية بكفاءة وشفافية لجميع المواطنين.",
+  "success": "تمت العملية بنجاح",
+  "error": "حدث خطأ",
+  "confirm": "تأكيد",
+  "confirmAction": "تأكيد العملية",
+  "close": "إغلاق",
 
   "quickLinks": "روابط سريعة",
  

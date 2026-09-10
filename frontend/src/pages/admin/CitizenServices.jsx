@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 import "./AdminRequests.css";
 
 const CitizenServices = () => {
@@ -27,7 +28,7 @@ const CitizenServices = () => {
   };
 
   const handleDelete = async (id) => {
-    if (!window.confirm(t("Are you sure?"))) return;
+    if (!(await showAppModal(t("Are you sure?"), { type: "confirm" }))) return;
 
     try {
       await axiosInstance.delete(`/api/citizens/${id}`);

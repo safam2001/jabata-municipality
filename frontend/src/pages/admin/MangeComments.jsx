@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 import axiosInstance from "../../api/axiosInstance";
 import "./MangeComments.css";
 
@@ -129,8 +130,9 @@ const fetchComments = async () => {
 
   const deleteComment = async (id) => {
 
-    const confirmDelete = window.confirm(
-      t("confirmDelete")
+    const confirmDelete = await showAppModal(
+      t("confirmDelete"),
+      { type: "confirm" }
     );
 
     if (!confirmDelete) return;
@@ -247,7 +249,7 @@ const createReply = async (commentId) => {
 
 const deleteReply = async (replyId, commentId) => {
 
-  if (!window.confirm(t("confirmDelete"))) return;
+  if (!(await showAppModal(t("confirmDelete"), { type: "confirm" }))) return;
 
   try {
 

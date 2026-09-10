@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import axiosInstance from "../../api/axiosInstance";
 import "./AdminNotifications.css";
+import { showAppModal } from "../../utils/modal";
 
 const AdminNotifications = () => {
 
@@ -142,8 +143,9 @@ const AdminNotifications = () => {
 
         if (selectedIds.length === 0) return;
 
-        const confirmed = window.confirm(
-            t("confirmDeleteSelectedNotifications")
+        const confirmed = await showAppModal(
+            t("confirmDeleteSelectedNotifications"),
+            { type: "confirm" }
         );
 
         if (!confirmed) return;
@@ -185,8 +187,9 @@ const AdminNotifications = () => {
 
         if (notifications.length === 0) return;
 
-        const confirmed = window.confirm(
-            t("confirmDeleteAllNotifications")
+        const confirmed = await showAppModal(
+            t("confirmDeleteAllNotifications"),
+            { type: "confirm" }
         );
 
         if (!confirmed) return;

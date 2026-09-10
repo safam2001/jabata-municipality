@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 import "./NewsList.css";
 
 const NewsList = () => {
@@ -20,9 +21,7 @@ const [statusFilter, setStatusFilter] = useState("");
 const [sortBy, setSortBy] = useState("newest");
 const [successMessage, setSuccessMessage] = useState("");
 
-//   useEffect(() => {
-//     fetchNews();
-//   }, []);
+
 const fetchNews = async () => {
   try {
     setLoading(true);
@@ -52,7 +51,10 @@ const fetchVillages = async () => {
 };
 
 const deleteNews = async (id) => {
-  const confirmDelete = window.confirm(t("confirmDelete"));
+  const confirmDelete = await showAppModal(
+    t("confirmDelete"),
+    { type: "confirm" }
+  );
 
   if (!confirmDelete) return;
 

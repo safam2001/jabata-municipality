@@ -4,6 +4,7 @@
 import React, { useEffect, useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 
 import {
   FaSave,
@@ -360,13 +361,13 @@ const AdminSiteSettings = () => {
         }
       );
 
-      alert(t("Settings saved successfully"));
+      showAppModal(t("Settings saved successfully"));
 
       fetchSettings();
     } catch (err) {
       console.error("Save settings error:", err);
 
-      alert(t("Failed to save settings"));
+      showAppModal(t("Failed to save settings"), { type: "error" });
     }
   };
 

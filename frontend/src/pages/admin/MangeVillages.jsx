@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 import "./MangeVillages.css";
 
 const ManageVillages = () => {
@@ -179,8 +180,9 @@ const ManageVillages = () => {
   };
 
   const deleteVillage = async (id) => {
-    const confirmDelete = window.confirm(
-      t("confirmDelete")
+    const confirmDelete = await showAppModal(
+      t("confirmDelete"),
+      { type: "confirm" }
     );
 
     if (!confirmDelete) return;

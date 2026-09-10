@@ -20,6 +20,7 @@ import {
 
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 import "./AdminContactMessage.css";
 
 const AdminContactMessages = () => {
@@ -184,8 +185,9 @@ const AdminContactMessages = () => {
   const handleDeleteSelected = async () => {
     if (selectedIds.length === 0) return;
 
-    const confirmed = window.confirm(
-      t("confirmDeleteSelectedContactMessages")
+    const confirmed = await showAppModal(
+      t("confirmDeleteSelectedContactMessages"),
+      { type: "confirm" }
     );
 
     if (!confirmed) return;
@@ -220,9 +222,10 @@ const AdminContactMessages = () => {
         err
       );
 
-      alert(
+      showAppModal(
         err.response?.data?.message ||
-          t("failedToDeleteSelectedContactMessages")
+          t("failedToDeleteSelectedContactMessages"),
+        { type: "error" }
       );
     } finally {
       setDeletingSelected(false);
@@ -382,9 +385,10 @@ const AdminContactMessages = () => {
         err
       );
 
-      alert(
+      showAppModal(
         err.response?.data?.message ||
-          t("failedToUpdateContactStatus")
+          t("failedToUpdateContactStatus"),
+        { type: "error" }
       );
     } finally {
       setUpdatingStatus(false);
@@ -396,8 +400,9 @@ const AdminContactMessages = () => {
   // =====================================
 
   const handleDelete = async (id) => {
-    const confirmed = window.confirm(
-      t("confirmDeleteContactMessage")
+    const confirmed = await showAppModal(
+      t("confirmDeleteContactMessage"),
+      { type: "confirm" }
     );
 
     if (!confirmed) return;
@@ -428,9 +433,10 @@ const AdminContactMessages = () => {
         err
       );
 
-      alert(
+      showAppModal(
         err.response?.data?.message ||
-          t("failedToDeleteContactMessage")
+          t("failedToDeleteContactMessage"),
+        { type: "error" }
       );
     } finally {
       setDeletingId(null);

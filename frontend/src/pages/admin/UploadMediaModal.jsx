@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 
 const UploadMediaModal = ({ onClose, onSuccess }) => {
 
@@ -70,7 +71,7 @@ const UploadMediaModal = ({ onClose, onSuccess }) => {
 
     if (files.length === 0) {
 
-      alert(t("selectFiles"));
+      showAppModal(t("selectFiles"), { type: "error" });
 
       return;
 
@@ -120,7 +121,7 @@ const UploadMediaModal = ({ onClose, onSuccess }) => {
 
       console.error(err);
 
-      alert(t("uploadFailed"));
+      showAppModal(t("uploadFailed"), { type: "error" });
 
     } finally {
 

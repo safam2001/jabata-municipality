@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 import "./DraftNews.css";
 
 const DraftNews = () => {
@@ -120,7 +121,7 @@ const DraftNews = () => {
   const deleteNews = async(id)=>{
 
 
-    if(!window.confirm(t("confirmDelete")))
+    if(!(await showAppModal(t("confirmDelete"), { type: "confirm" })))
       return;
 
 

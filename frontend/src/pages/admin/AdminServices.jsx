@@ -2,6 +2,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from "react-i18next";
+import { showAppModal } from "../../utils/modal";
 import "./AdminServices.css";
 
 const AdminServices = () => {
@@ -121,7 +122,7 @@ const filteredServices = useMemo(() => {
     } catch (err) {
       console.error(err);
 
-      alert(t("serviceSaveError"));
+      showAppModal(t("serviceSaveError"), { type: "error" });
     }
   };
 
@@ -130,7 +131,7 @@ const filteredServices = useMemo(() => {
   // =========================
 
   const handleDelete = async (id) => {
-    if (!window.confirm(t("deleteServiceConfirm"))) {
+    if (!(await showAppModal(t("deleteServiceConfirm"), { type: "confirm" }))) {
       return;
     }
 
@@ -143,7 +144,7 @@ const filteredServices = useMemo(() => {
     } catch (err) {
       console.error(err);
 
-      alert(t("serviceDeleteError"));
+      showAppModal(t("serviceDeleteError"), { type: "error" });
     }
   };
 
